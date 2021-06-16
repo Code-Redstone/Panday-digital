@@ -10,7 +10,7 @@
                 class="ma-auto"
                 max-width="600px"
                 max-height="600px"
-                :src="require('~/assets/resources/home.png')"
+                :src="require(`~/assets/resources/home.png`)"
                 />
               </div>
             </v-col>
@@ -86,7 +86,7 @@
               <v-img
               max-width="100%"
               max-height="100%"
-              src="/_nuxt/assets/resources/Why-Digital-marketing-manila.png"
+              :src="require(`~/assets/resources/Why-Digital-marketing-manila.png`)"
               > 
               </v-img>
             </v-col>            
@@ -146,7 +146,7 @@
                           color="red"
                         >       
                           <v-img
-                          :src="color.img"
+                          :src="require(`~/assets/resources/`+color.img)"
                           max-width="120px"
                           max-height="120px"
                           ></v-img>
@@ -240,7 +240,7 @@ export default {
             color:'#1b75bb',
             id:1,
             discription:'"It was a pleasure working with Merlina and her team. They are extremely knowledgeable about Local SEO."',
-            img:'/_nuxt/assets/resources/yeoman.png',
+            img:'yeoman.png',
             name:'Yeoman',
             position:'CEO/artist/model',
 
@@ -249,7 +249,7 @@ export default {
             color:'#1b75bb',
             id:2,
             discription:' "Great working with Digital Marketing Manila. If more SEO projects come again in the future, I will definitely use them again."',
-            img:'/_nuxt/assets/resources/ubunto.png',
+            img:'ubunto.png',
             name:'Pinguin',
             position:'First Pinguin that can`t swim',
           },
@@ -257,7 +257,7 @@ export default {
             color:'#1b75bb',
             id:3,
             discription:' "Great working with Digital Marketing Manila. If more SEO projects come again in the future, I will definitely use them again."',
-            img:'/_nuxt/assets/resources/dog.png',
+            img:'dog.png',
             name:'Ahmjigh',
             position:'Head',
           },

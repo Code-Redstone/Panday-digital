@@ -10,7 +10,7 @@
                             class="ma-auto"
                             max-width="800px"
                             max-height="600px"
-                            src="/_nuxt/assets/resources/PPC.png"
+                            :src="require(`~/assets/resources/PPC.png`)"
                             />
                         </div>
                     </v-col>
@@ -123,7 +123,7 @@
                             class=""
                             max-width="60%"
                             max-height="60%"
-                            src="/_nuxt/assets/resources/illustration.png"
+                            :src="require(`~/assets/resources/illustration.png`)"
                             />
                         </div>                    
                     </v-col>
@@ -213,7 +213,7 @@ export default {
             color:'#1b4cbb',
             id:1,
             discription:'"It was a pleasure working with Merlina and her team. They are extremely knowledgeable about Local SEO."',
-            img:'/_nuxt/assets/resources/yeoman.png',
+            img:'/resources/yeoman.png',
             name:'Yeoman',
             position:'CEO/artist/model',
 
@@ -222,7 +222,7 @@ export default {
             color:'#1b4cbb',
             id:2,
             discription:' "Great working with Digital Marketing Manila. If more SEO projects come again in the future, I will definitely use them again."',
-            img:'/_nuxt/assets/resources/ubunto.png',
+            img:'/resources/ubunto.png',
             name:'Pinguin',
             position:'First Pinguin that can`t swim',
           },
@@ -230,7 +230,7 @@ export default {
             color:'#1b4cbb',
             id:3,
             discription:' "Great working with Digital Marketing Manila. If more SEO projects come again in the future, I will definitely use them again."',
-            img:'/_nuxt/assets/resources/dog.png',
+            img:'/resources/dog.png',
             name:'Ahmjigh',
             position:'Head',
           },

@@ -28,7 +28,7 @@
                         max-width="60%"
                         max-height="60%"
                         width="1440px"
-                        src="/_nuxt/assets/resources/Metrics.png"
+                        :src="require(`~/assets/resources/Metrics.png`)"
                         />
                     </div>                    
                 </v-col>

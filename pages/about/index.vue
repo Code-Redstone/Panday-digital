@@ -6,7 +6,7 @@
                     <v-row justify-content:space-evenly no-gutters align-items:stretch>
                         <v-col cols="12" sm="12" md="6" lg="6" xl="6">
                             <div class="first-image">
-                                <img src="/_nuxt/assets/resources/About.png" alt="" />
+                                <img :src="require(`~/assets/resources/About.png`)" alt="" />
                             </div>
                         </v-col>
                         <v-col class=" center" sm="12" md="6" lg="6" xl="6" color="white">
@@ -60,7 +60,7 @@
                             <v-img 
                             max-width="340px"
                             width="365px"
-                            src="/_nuxt/assets/resources/jr.jpg" alt="" ></v-img>
+                            :src="require(`~/assets/resources/jr.jpg`)" alt="" ></v-img>
                             <h1 class="mb-5 px-1 white--text text-center Services-Font text-xl-h3 text-lg-h6 text-md-h6 text-sm-h4 pt-5 font-weight-thin" >ArAr</h1>
                             <p class="mb-5 px-1 white--text text--darken-3 text-center Services-Font text-xl-h6 text-lg-h6 text-md-h6 text-sm-h4 pt-5">hey test</p>
                         </v-card>
@@ -74,7 +74,7 @@
                             <v-img 
                             max-width="340px"
                             width="365px"
-                            src="/_nuxt/assets/resources/enzo.jpg" alt="" ></v-img>
+                            :src="require(`~/assets/resources/enzo.jpg`)" alt="" ></v-img>
                             <h1 class="mb-5 px-1 white--text text-center Services-Font text-xl-h3 text-lg-h6 text-md-h6 text-sm-h4 pt-5 font-weight-thin">Enzo</h1>
                             <p class="mb-5 px-1 white--text text--darken-3 text-center Services-Font text-xl-h6 text-lg-h6 text-md-h6 text-sm-h4 pt-5">hey test</p>
                         </v-card>

@@ -10,7 +10,7 @@
                                 class=""
                                 max-width="60%"
                                 max-height="60%"
-                                src="/_nuxt/assets/resources/illustration.png"
+                                :src="require(`~/assets/resources/illustration.png`)"
                                 />
                             </div>                    
                         </v-col>
