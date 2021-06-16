@@ -10,7 +10,7 @@
                 class="ma-auto"
                 max-width="600px"
                 max-height="600px"
-                src="/_nuxt/assets/resources/home.png"
+                :src="require('~/assets/resources/home.png')"
                 />
               </div>
             </v-col>
