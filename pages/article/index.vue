@@ -1,3 +1,4 @@
+<!--
 <template>
   <div class="home-page">
     <h2>Latest Posts</h2>
@@ -30,7 +31,7 @@ export default {
   }
 }
 </script>
-
+-->
 <style>
 .home-page {
   padding: 50px 30px;

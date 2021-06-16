@@ -193,6 +193,11 @@
         </v-row>
       </div>
     </v-main>
+    <v-main>
+      <div class="testing101">
+        <h1 v-bind:jr="jr"></h1>
+      </div>
+    </v-main>
   </v-app>
 </template>
 
@@ -207,6 +212,7 @@ export default {
     },
     data() {
       return {
+         jr:'Click me',
         faqs:[
           {
             id:1,

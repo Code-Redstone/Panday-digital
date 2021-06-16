@@ -1,3 +1,4 @@
+<!--
 <template>
   <article>
       <nuxt-content :document="article"/>
@@ -13,6 +14,7 @@ export default {
     }
 }
 </script>
+-->
 <style>
 article {
   display: block;
