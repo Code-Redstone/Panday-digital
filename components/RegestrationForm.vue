@@ -28,7 +28,7 @@
                 </v-text-field>
             </v-col>
             <v-col cols="12 " class="pb-0">
-                <p class="font-weight-medium mb-0 mt-5 text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">What services can we provide you?</p>
+                <p class="font-weight-medium mb-0 mt-5 text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">What Services Can We Help You With?</p>
             </v-col>
             <v-col cols="12 " class="">
                 <v-container>
@@ -97,7 +97,7 @@
                 <v-btn  color="blue"
                 class="px-15 py-10"
                 elevation="1"
-                ><span class=" white--text font-weight-light text-justify text-xl-h6 text-lg-h6 text-md-subtitle-2 text-sm-h5">Here from an expert</span>
+                ><span class=" white--text font-weight-light text-justify text-xl-h6 text-lg-h6 text-md-subtitle-2 text-sm-h5">LET THE EXPERTS ASSIST YOU</span>
                 </v-btn>             
             </v-col>
         </v-row>
