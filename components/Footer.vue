@@ -1,10 +1,9 @@
 <template>
-<v-app id="app">
-    <v-main>
+    <v-main >
         <v-sheet
         max-width="100%"
         max-height="100%"
-        class="Footer-color"
+        class="Footer-color desktop-main"
         >
             <v-container>
                 <v-row>
@@ -97,21 +96,142 @@
                 </v-row>
             </v-container>
         </v-sheet>
+        <v-container  class="Mdn">
+            <v-row>
+                <v-col sm="4" cols="12">
+                    <p class="black--text font-weight-light">
+                        <b>Business Hours</b><br>
+                        Monday – Saturday<br>
+                        8:00AM – 8:00PM<br><br>
+
+                        +63 (977) 366-8544<br>
+                        info@pandaydigital.com
+                    </p>
+                </v-col>
+                <v-col sm="4" cols="12" >
+                    <p class="black--text font-weight-light">
+                        <strong>Panday Digital</strong><br>
+                        One Global Place,<br>
+                        Level 10-1,<br>
+                        25th street & 5th Avenue,<br>
+                        Bonifacio Global City,<br>
+                        Taguig City, 1632 Philippines
+                    </p>
+                </v-col>
+                <v-col sm="4" cols="12" class="">
+                    <v-container>
+                        <v-row>
+                            <p class="white--text mb-10 text-sm-h4 font-weight-light"><b>Connect to Us!</b></p>
+                        </v-row>
+                        <v-row class="d-flex">
+                        <v-img
+                        class="my-1"
+                        :src="require(`~/assets/resources/fb.png`)"
+                        max-height="50px"
+                        max-width="50px"
+                        >
+                        </v-img>
+                        <v-img
+                        class="my-1"
+                        :src="require(`~/assets/resources/twitter.png`)"
+                        max-height="50px"
+                        max-width="50px"
+                        >
+                        </v-img>   
+                        <v-img
+                        class="my-1"
+                        :src="require(`~/assets/resources/in.png`)"
+                        max-height="50px"
+                        max-width="50px"
+                        >
+                        </v-img>
+                        </v-row>
+                    </v-container>
+                </v-col>
+            </v-row>
+                        <v-row>
+                <v-col sm="4" cols="12">
+                    <p class="black--text text-sm-h1 font-weight-light">
+                        ©2021 Panday Digital. All Rights Reserved.
+                    </p>
+                </v-col>
+                <v-col sm="4" cols="12" >
+                    <p class="black--text font-weight-light">
+                        <strong>Panday Digital</strong><br>
+                        One Global Place,<br>
+                        Level 10-1,<br>
+                        25th street & 5th Avenue,<br>
+                        Bonifacio Global City,<br>
+                        Taguig City, 1632 Philippines
+                    </p>
+                </v-col>
+                <v-col sm="4" cols="12" class="">
+                    <v-container>
+                        <v-row>
+                            <p class="white--text mb-10 text-sm-h4 font-weight-light"><b>Connect to Us!</b></p>
+                        </v-row>
+                        <v-row class="d-flex">
+                        <v-img
+                        class="my-1"
+                        :src="require(`~/assets/resources/fb.png`)"
+                        max-height="50px"
+                        max-width="50px"
+                        >
+                        </v-img>
+                        <v-img
+                        class="my-1"
+                        :src="require(`~/assets/resources/twitter.png`)"
+                        max-height="50px"
+                        max-width="50px"
+                        >
+                        </v-img>   
+                        <v-img
+                        class="my-1"
+                        :src="require(`~/assets/resources/in.png`)"
+                        max-height="50px"
+                        max-width="50px"
+                        >
+                        </v-img>
+                        </v-row>
+                    </v-container>
+                </v-col>
+            </v-row>
+        </v-container>
     </v-main>
-</v-app>
+
 </template>
 
 <script>
+//:style="themecolor"
+import { mapState } from 'vuex'
 export default {
-
+    data() {
+        return {
+           //
+        }
+    },
+//    computed: {
+//        ...mapState({
+//            themecolor: (state) => state.themecolor
+//        })
+//    },
+//    mounted() {
+//        console.log(this.themecolor)
+//    }
 }
 </script>
 
 <style>
+.mb-10{
+    margin-bottom: 10px !important;
+}
+.my-1{
+    margin:0 1% !important;
+}
 .Footer-color.v-sheet {
-    background-color: #1b75bb !important;
     border-color: #FFFFFF !important;
     color: rgb(255 255 255) !important;
+     background: #1b75bb !important;
 }
 #app .v-application--wrap{
     min-height: 100% !important;

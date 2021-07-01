@@ -78,6 +78,9 @@ export default {
         this.router.push('/dashboard');
       }
     },
+//    mounted() {
+//     this.$store.dispatch('themecolor/setThemeColor', "background-color: #eee !important")
+//    },
     data() {
       return {
         faqs:[
@@ -118,7 +121,7 @@ export default {
             discription:' "Great working with Digital Marketing Manila. If more SEO projects come again in the future, I will definitely use them again."',
             img:'/_nuxt/assets/resources/ubunto.png',
             name:'Pinguin',
-            position:'First Pinguin that can`t swim',
+            position:'First Pinguin that can`t swim',      
           },
                     {
             color:'#1b75bb',

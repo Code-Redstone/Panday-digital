@@ -3,9 +3,9 @@
     <v-row>
         <v-col class="Text-center"  cols="12" >
             <div class="div text-center">
-              <h3 class="black--text text--secondary font-weight-light text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4 ">GROW TRAFFIC & INCREASE REVENUE</h3>
+              <h3 class="black--text text--secondary font-weight-light text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4 ">INCREASE TRAFFIC AND REVENUE</h3>
               <h2  class="black--text text--secondary text-xl-h2 text-lg-h4 text-md-h5 text-sm-h3 font-weight-bold py-5"> Be On the Top & Get More Traffic to Your Website</h2>
-              <p class="black--text text--secondary text-h6 font-weight-light text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">As the top digital marketing agency in the Philippines, we are honored to illuminate your ideas when it comes to steering your digital journey forward. Here are our top-rated services that attest to our legacy for you.</p>
+              <p class="black--text text--secondary text-h6 font-weight-light text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">We are thrilled to illuminate your thoughts when it comes to leading your digital journey forward as the Philippines' top digital marketing agency. Here are our top-rated services that attest to our legacy for you.</p>
             </div>
         </v-col>            
         <v-col class="text-center" cols="4" sm="12" md="4" lg="4" xl="4" v-for="seo in seos " :key="seo.id" >
@@ -37,56 +37,56 @@ export default {
           {
             id:1,
             img:'seoseo.png',
-            title:'Search Engine Optimization',
-            discription:'Establish your website at the first place for its products or services that people instantly see when they search it online. This is your gateway to secure leads as the top trusted brand in your industry.',
+            title:'Search Engine Optimization (SEO)',
+            discription:'Establish your website as the first location when people search for items or services online. As the most reputable brand in your business, this is your ticket to securing leads.',
           },
           {
             id:2  ,
             img:'smm.png',
-            title:'Social Media Marketing',
-            discription:'Capture the world with your every move through maximizing these game-changer platforms. Once you master how to engage your audience in social media, your brand is bound to be unstoppable.',
+            title:'Marketing on Social Media',
+            discription:`Utilize these game-changing platforms to capture the world with your every move. Your brand will be unstoppable once you've mastered how to engage your audience on social media.`,
           },
           {
             id:3  ,
             img:'lseo.png',
-            title:'Local SEO',
-            discription:'People prioritize brands that offer them complete convenience through proximity and accessibility. Ensure that your local consumers find you first to influence their purchasing choices effectively.',
+            title:'Local Search Engine Optimization',
+            discription:`Consumers prioritize brands that provide complete convenience through closeness and accessibility. Ensure that your local customers find you first to influence their purchasing decisions effectively.`,
           },
           {
             id:4  ,
             img:'wdd.png',
-            title:'Web Design & Development',
-            discription:'Aesthetics and website user-friendliness surely make your online relevance. Leave them wonderstruck with how you welcome them to your brand’s working grounds.',
+            title:'Web Development and Design',
+            discription:`Your website's aesthetics and user-friendliness will undoubtedly increase your online relevance. Leave your customers speechless with the way you welcome them to your company's headquarters`,
           },
           {
             id:5  ,
             img:'rm.png',
-            title:'Reputation Management',
-            discription:'Take control of the online conversation that empowers your brand. Cultivate strategies with us to shift the odds and elevate your brand with every audience interaction.',
+            title:'Management of Reputation',
+            discription:`Take charge of the online dialogue that will help your company grow. Work with us to develop strategies that can help you change the odds and boost your business with every audience engagement.`,
           },
           {
             id:6  ,
             img:'Ads.png',
-            title:'Pay Per Click Management',
-            discription:'Drive consistent traffic to your website by directly channeling your resources to your target consumers. Flourish in channels where it matters.',
+            title:'Management of Pay Per Click Campaigns',
+            discription:'Directly diverting your resources to your target consumers will drive constant traffic to your website. Flourish in the areas that count.',
           },
           {
             id:7  ,
             img:'cdg.png',
-            title:'Creatives Graphic Design',
-            discription:'Nothing’s more captivating than images that express your brand’s capability. Invest to impress them with your new ideas or visual artistry that stands out.',
+            title:'Graphic Design for Creatives',
+            discription:`Nothing is more appealing than photographs that demonstrate your company's capabilities. Invest in captivating them with innovative ideas and outstanding visual creativity`,
           },
           {
             id:8  ,
             img:'cwm.png',
-            title:'Content Writing & Marketing  ',
-            discription:'Craft content that converts visitors to admirers. Transform curiosity into loyalty. The key is to be seen and heard, and we’re here to find the right words for you.',
+            title:'Marketing and Content Writing',
+            discription:`Create material that turns visitors into followers. Turn curiosity into a long-term commitment. It's crucial to be seen and heard, and we're here to help you find the right vocabulary that transforms.`,
           },
           {
             id:9  ,
             img:'em.png',
             title: 'Email Marketing',
-            discription:'Create personal conversations with your consumers beyond their inbox. Build your credibility with a cost-effective outline while maintaining impressive conversions.',
+            discription:'Establish personal connections with your customers outside of their inboxes. With a cost-effective plan and exceptional conversions, you can build your credibility through email marketing',
           },
         ],
         }

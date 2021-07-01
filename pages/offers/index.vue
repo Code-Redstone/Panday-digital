@@ -206,6 +206,9 @@ export default {
         this.router.push('/dashboard');
       }
     },
+//    mounted() {
+//        this.$store.dispatch('themecolor/setThemeColor',  "background-color: #000 !important")
+//    },
     data() {
       return {
         colors:[

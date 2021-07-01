@@ -5,23 +5,23 @@
                 <h3 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4 pt-5">Digital Marketing Proposal</h3>
             </v-col>
             <v-col cols="12 " class="py-0">
-                <p class="ma-0 font-weight-light text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">Fields marked with an * are required </p>
+                <p class="ma-0 font-weight-light text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">Fields with an asterisk (*) are compulsory.</p>
             </v-col>              
             <v-col cols="6" class="custom-width">
-                <v-text-field label="Full Name" auto-grow outlined rows="2" row-height="15">
+                <v-text-field label="Full name" auto-grow outlined rows="2" row-height="15">
                 </v-text-field>
             </v-col>
             <v-col cols="6" class="custom-width">
-                <v-text-field label="Business Name" auto-grow outlined rows="2" row-height="15">
+                <v-text-field label="Name of Business" auto-grow outlined rows="2" row-height="15">
                 </v-text-field>
             </v-col>
             <v-col cols="6" class="custom-width">
-                <v-text-field label="Email" auto-grow outlined rows="2" row-height="15">
+                <v-text-field label="E-mail address" auto-grow outlined rows="2" row-height="15">
                 </v-text-field>
             </v-col>
             <v-col cols="6" class="custom-width">
                 <v-text-field
-                label="Phone" 
+                label="Phone number" 
                 auto-grow outlined 
                 rows="2" 
                 row-height="15">

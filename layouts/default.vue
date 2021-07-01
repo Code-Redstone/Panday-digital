@@ -5,7 +5,18 @@
     <Footer />
   </div>
 </template>
-
+<script>
+// :basket-count="items.length"
+//import FooterComponent from './footer.component'
+//export default {
+//data () {
+//  items: [{}, {}]
+//},
+  //components: {
+    //footerComponent: FooterComponent
+  //}
+//}
+</script>
 <style>
 *{
   margin: 0;
