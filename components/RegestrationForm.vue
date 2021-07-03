@@ -7,19 +7,19 @@
             <v-col cols="12 " class="py-0">
                 <p class="ma-0 font-weight-light text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">Fields with an asterisk (*) are compulsory.</p>
             </v-col>              
-            <v-col cols="6" class="custom-width">
+            <v-col cols="12" lg="6" class="custom-width">
                 <v-text-field label="Full name" auto-grow outlined rows="2" row-height="15">
                 </v-text-field>
             </v-col>
-            <v-col cols="6" class="custom-width">
+            <v-col cols="12" lg="6" class="custom-width">
                 <v-text-field label="Name of Business" auto-grow outlined rows="2" row-height="15">
                 </v-text-field>
             </v-col>
-            <v-col cols="6" class="custom-width">
+            <v-col cols="12" lg="6"  class="custom-width">
                 <v-text-field label="E-mail address" auto-grow outlined rows="2" row-height="15">
                 </v-text-field>
             </v-col>
-            <v-col cols="6" class="custom-width">
+            <v-col cols="12" lg="6" class="custom-width">
                 <v-text-field
                 label="Phone number" 
                 auto-grow outlined 
@@ -33,7 +33,7 @@
             <v-col cols="12 " class="">
                 <v-container>
                     <v-row>
-                        <v-col cols="6" class="py-0">
+                        <v-col cols="12" lg="6" class="py-0">
                             <v-checkbox
                             label="Search Engine Optimization"
                             color="blue "
@@ -41,7 +41,7 @@
                             hide-details
                             ></v-checkbox>
                         </v-col>
-                        <v-col cols="6" class="py-0">
+                        <v-col cols="12" lg="6" class="py-0">
                             <v-checkbox
                             label="Online Reputation Management"
                             color="blue "
@@ -49,7 +49,7 @@
                             hide-details
                             ></v-checkbox>
                         </v-col>
-                        <v-col cols="6" class="py-0">
+                        <v-col cols="12" lg="6"  class="py-0">
                             <v-checkbox
                             label="Web Design & Development"
                             color="blue "
@@ -57,7 +57,7 @@
                             hide-details
                             ></v-checkbox>
                         </v-col>
-                        <v-col cols="6" class="py-0">
+                        <v-col cols="12" lg="6"  class="py-0">
                             <v-checkbox
                             label="Social Media Management"
                             color="blue "
@@ -65,7 +65,7 @@
                             hide-details
                             ></v-checkbox>
                         </v-col>
-                        <v-col cols="6" class="py-0">
+                        <v-col cols="12" lg="6"  class="py-0">
                             <v-checkbox 
                             label="Search Engine Marketing"
                             color="blue "
@@ -73,7 +73,7 @@
                             hide-details
                             ></v-checkbox>
                         </v-col>
-                        <v-col cols="6" class="py-0">
+                        <v-col cols="12" lg="6"  class="py-0">
                             <v-checkbox
                             label="Content Writing Management"
                             color="blue "
@@ -94,7 +94,7 @@
                 </v-container>
             </v-col>
             <v-col cols="12">
-                <v-btn  color="blue"
+                <v-btn id="Regestrationbutton"  color="blue"
                 class="px-15 py-10"
                 elevation="1"
                 ><span class=" white--text font-weight-light text-justify text-xl-h6 text-lg-h6 text-md-subtitle-2 text-sm-h5">LET THE EXPERTS ASSIST YOU</span>

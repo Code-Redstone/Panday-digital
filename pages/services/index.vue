@@ -17,8 +17,8 @@
                         <v-col cols="12" sm="12" md="6" lg="6" xl="6" class="d-flex">
                             <div class="d-block ">
                                 <h1 class="white--text darken-4   font-weight-bold py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">SEO Audit Services</h1>
-                                <h1 class="white--text darken-4 font-weight-thin py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">Get a Complete Audit with Actionable Plan</h1>
-                                <p class="white--text darken-4 font-weight-light text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">Our audit services are 100% manually checked for each factors and are provided with important recommendations which suits your business.</p><br>
+                                <h1 class="white--text darken-4 font-weight-thin py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">Get a Full Audit With a Detailed Action Plan</h1>
+                                <p class="white--text darken-4 font-weight-light text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">Our audit services are carefully evaluated for each component and include significant recommendations that are tailored to your business.</p><br>
                             </div>
                         </v-col>
                     </v-row>

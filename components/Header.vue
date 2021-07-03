@@ -2,21 +2,64 @@
   <header>
 	  <div class="container d-flex">
 		<div class="mainmenu">
-            <img :src="require(`~/assets/resources/Panday-digital-long2.png`)" alt="" width="20%">
-			<nav class="float Mdn">
-				<nuxt-link to="/"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">HOME</h1></nuxt-link>
-                <nuxt-link to="offers"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">OFFERS</h1></nuxt-link>
-                <nuxt-link to="services"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES  </h1></nuxt-link>
-				<!--<nuxt-link to="article"> <h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ARTICLE</h1></nuxt-link>-->
-                <nuxt-link to="contact"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">CONTACT US</h1></nuxt-link>
-			</nav> 
-            <nav class="float Ddn">
-				<nuxt-link to="/"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">HOME</h1></nuxt-link>
-                <nuxt-link to="offers"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">OFFERS</h1></nuxt-link>
-                <nuxt-link to="services"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES  </h1></nuxt-link>
-				<!--<nuxt-link to="article"> <h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ARTICLE</h1></nuxt-link>-->
-                <nuxt-link to="contact"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">CONTACT US</h1></nuxt-link>
-			</nav> 
+            <div class="Mdn">
+                <v-row>
+                    <v-col cols="6">
+                        <img :src="require(`~/assets/resources/Panday-digital-mobile.jpg`)" alt="" width="110px" style="width: 110px;" >
+                    </v-col>
+                    <v-col cols="6 d-flex">
+                        <nav class="float Mauto0AutoAuto">
+                            <div id="menuToggle" class="Mauto0AutoAuto">
+                                <!--
+                                A fake / hidden checkbox is used as click reciever,
+                                so you can use the :checked selector on it.
+                                -->
+                                <input type="checkbox" />
+                                
+                                <!--
+                                Some spans to act as a hamburger.
+                                
+                                They are acting like a real hamburger,
+                                not that McDonalds stuff.
+                                -->
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                
+                                <!--
+                                Too bad the menu has to be inside of the button
+                                but hey, it's pure CSS magic.
+                                -->
+                                <ul id="menu">
+                                    <nuxt-link to="/"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">HOME</h1></nuxt-link>
+                                    <nuxt-link to="offers"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">OFFERS</h1></nuxt-link>
+                                    <nuxt-link to="services"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES  </h1></nuxt-link>
+                                    <!--<nuxt-link to="article"> <h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ARTICLE</h1></nuxt-link>-->
+                                    <nuxt-link to="contact"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">CONTACT US</h1></nuxt-link>
+                                    <nuxt-link to="Web-Dev"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">WEB DEV</h1></nuxt-link>
+                                </ul>
+                            </div>
+                        </nav> 
+                    </v-col>
+                </v-row>
+            </div>
+            <div class="Ddn">
+                <v-row>
+                    <v-col cols="3">
+                        <img :src="require(`~/assets/resources/Panday-digital-long2.png`)" alt="" width="70%">
+                    </v-col>
+                    <v-col cols="9" class="d-flex">
+                        <nav class="float Ddn Mauto0AutoAuto">
+                            <nuxt-link to="/"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h3 text-md-h6 text-sm-h2">HOME</h1></nuxt-link>
+                            <nuxt-link to="offers"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">OFFERS</h1></nuxt-link>
+                            <nuxt-link to="services"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES  </h1></nuxt-link>
+                            <!--<nuxt-link to="article"> <h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ARTICLE</h1></nuxt-link>-->
+                            <nuxt-link to="contact"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">CONTACT US</h1></nuxt-link>
+                            <nuxt-link to="Web-Dev"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">WEB DEV</h1></nuxt-link>
+                        </nav>
+                    </v-col>
+                </v-row>
+            </div>
 		</div>
 	  </div>
   </header>
@@ -38,7 +81,13 @@ export default {
   $color-pack: false;
 
   @import '~vuetify/src/styles/main.sass';
-  @media screen and (max-width:959px) and (min-width:10px) {
+  @media screen and (max-width:400px) {
+      button#Regestrationbutton {
+        padding: 10px 10px 10px 10px !important;
+        width: 100% !important;
+    }
+  }
+  @media screen and (max-width:1264px) and (min-width:10px) {
     .desktop-main,
     .Ddn{
         display: none !important;
@@ -48,7 +97,7 @@ export default {
         align-self: center;
     }
   }
-    @media screen and (min-width:960px) {
+    @media screen and (min-width:1265px) {
     .Mdn{
         display: none !important;
     }
@@ -59,6 +108,9 @@ p{
 }
 .custom-width {
     height: 65px;
+}
+.Mauto0AutoAuto{
+    margin: auto 0 auto auto;
 }
 h1,
 h2,
@@ -78,14 +130,11 @@ nav.float {
     color: white;
 }
 .mainmenu {
-    display: flex;
     width: 100%;
-    justify-content: space-between;
 }
 nav {
 	display: flex;
 	align-items: center;
-	margin: 0 -15px;
 }
 nav a {
 	display: block;
@@ -128,5 +177,85 @@ header {
 .d-flex{
     align-items: center !important;
     display: flex;
+}
+#menuToggle span {
+    display: block;
+    width: 50px;
+    height: 8px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #000000;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+#menuToggle input {
+    display: block;
+    width: 58px;
+    height: 39px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+    -webkit-touch-callout: none;
+}
+#menu {
+    right: -191px;
+    top: 56px;
+    position: absolute;
+    width: 56vh;
+    height: 1192px;
+    padding: 33px;
+    padding-top: 51px;
+    background: #ffffff;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transform: translate(134%, 0);
+}
+#menuToggle {
+    display: block;
+    position: relative;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(0px, -6px);
+    background: #232323;
+}
+#menuToggle input:checked .testing{
+    right: 300px;
+}
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+.v-responsive__content {
+    width: 100% !important;
+}
+ul#menu a {
+    margin-bottom: 25px;
 }
 </style>

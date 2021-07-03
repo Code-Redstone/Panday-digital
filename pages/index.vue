@@ -208,11 +208,6 @@
         <h1 v-bind:jr="jr"></h1>
       </div>
     </v-main>
-    <main class="Mobile pt-100">
-      <div class="container">
-        <h1>p</h1>
-      </div>
-    </main>
   </v-app>
 </template>
 
