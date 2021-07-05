@@ -1,21 +1,23 @@
 <template>
   <div>
-    <Header />
-    <Nuxt />
+    <Header @open="openMenu" @close="closeMenu" />
+    <div class="full" ref="full">
+      <Nuxt />
+    </div>
     <Footer />
   </div>
 </template>
 <script>
-// :basket-count="items.length"
-//import FooterComponent from './footer.component'
-//export default {
-//data () {
-//  items: [{}, {}]
-//},
-  //components: {
-    //footerComponent: FooterComponent
-  //}
-//}
+export default {
+  methods: {
+    openMenu() {
+      this.$refs.full.style.transform = "translate3d(-300px, 0,0)"
+    },
+    closeMenu() {
+      this.$refs.full.style.transform = "none"
+    }
+  }
+}
 </script>
 <style>
 *{
@@ -24,6 +26,9 @@
   box-sizing: border-box;
 
   font-family: sans-serif;
+}
+.full {
+  transition: transform .4s cubic-bezier(0.77, 0.2, 0.05, 1) ;
 }
 body{
   background: #EEE;

@@ -14,7 +14,7 @@
                                 A fake / hidden checkbox is used as click reciever,
                                 so you can use the :checked selector on it.
                                 -->
-                                <input type="checkbox" />
+                                <input type="checkbox" @click="burgerClick" />
                                 
                                 <!--
                                 Some spans to act as a hamburger.
@@ -71,6 +71,14 @@ export default {
         return {
             mobilemenu:true,
         }
+    },
+    methods: {
+        burgerClick(e) {
+            if(e.target.checked)
+                this.$emit('open')
+            else
+                this.$emit('close')
+        }
     }
 }
 </script>
@@ -82,7 +90,7 @@ export default {
 
   @import '~vuetify/src/styles/main.sass';
   @media screen and (max-width:400px) {
-      button#Regestrationbutton {
+      .Responsivebutton {
         padding: 10px 10px 10px 10px !important;
         width: 100% !important;
     }
@@ -95,6 +103,14 @@ export default {
     .mainmenu img {
         display: flex;
         align-self: center;
+    }
+    .M-textCenter{
+        text-align: center;
+    }
+    #Hero-Description,
+    #hero-homepage{
+        text-align: center !important;
+        padding-top: 50px;
     }
   }
     @media screen and (min-width:1265px) {
@@ -201,10 +217,10 @@ header {
     -webkit-touch-callout: none;
 }
 #menu {
-    right: -191px;
+    right: -200px;
     top: 56px;
     position: absolute;
-    width: 56vh;
+    width: 500px;
     height: 1192px;
     padding: 33px;
     padding-top: 51px;

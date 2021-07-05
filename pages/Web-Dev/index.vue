@@ -6,8 +6,8 @@
                 <v-row>
                     <v-col cols="12 d-flex" lg="6"  > 
                         <div class="" id="Hero-Description">
-                            <h3 class="white--text font-weight-bold text-xl-h3 text-lg-h4 text-md-h4 text-sm-h4 mb-5">Best Website Developer in the Philippines</h3>
-                            <h5 class="white--text font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 mb-5">Custom Website Development Solution for your Business or Services</h5>
+                            <h3 class="white--text font-weight-bold text-xl-h3 text-lg-h4 text-md-h4 text-sm-h4 text-h5 mb-5">Best Website Developer in the Philippines</h3>
+                            <h5 class="white--text font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">Custom Website Development Solution for your Business or Services</h5>
                             <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">At Digital Marketing Manila, we understand what is required to develop a functional website. With the expertise of a team of a website developer in the Philippines like ours, at your disposal, building the ideal website becomes surprisingly easy.</p>
                              <v-btn class="Rounded-botton px-10 py-8 text-lg-h5 text-md-subtitle-1 text-sm-h5 text-center"
                             elevation="1"
@@ -33,7 +33,7 @@
                 <v-row>
                     <v-col cols="12 d-flex" lg="6"> 
                         <div class="test">
-                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 mb-5">Why Choose Website Developer in the Philippines for your Services?</h5>
+                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">Why Choose Website Developer in the Philippines for your Services?</h5>
                             <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">There are multiple factors that affect how your target audience engages with a website. A skilled developer must consider multiple factors when developing a website.</p>
                             <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">We are a team of Filipino web developer and we specialize in building websites that fulfill all your requirements. Here are the reasons you should partner with us –</p>   
                             <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 mb-5">An Exhaustive Portfolio</h5>
@@ -53,7 +53,7 @@
                 <v-row>
                     <v-col cols="12 d-flex" lg="6"  > 
                         <div class="">
-                            <h5 class="white--text font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 mb-5">Coding Capabilities</h5>
+                            <h5 class="white--text font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">Coding Capabilities</h5>
                             <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">When it’s about website development, coding is the core skill that matters. Businesses need to ensure that the developers on the agency they are working with, have superb coding knowledge. Any vision one has for his/her website can be truly achieved, if the developers are adept with the coding language. Website Coders at Digital Marketing Manila are experts in their crafts. We offer experienced web developer in the Philippines who will help you in every step of the way.</p>             
                         </div>
                     </v-col>
@@ -74,7 +74,7 @@
                 <v-row>
                     <v-col cols="12 d-flex" lg="6"  > 
                         <div class="">
-                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 mb-5">Availability Of In-House Copywriter</h5>
+                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">Availability Of In-House Copywriter</h5>
                             <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">A web development company in the Philippines should not only invest in designing talent but should also house deft copywriters. There’s a saying “design attracts, copy sells”. Content on your website is the substance that engages the visitors to stay.</p> 
                             <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">By utilizing an agency’s in-house copywriters, it’s possible to save both time and money. In case a business already has its own content, a copywriter working in connection with the designers will be able to fine-tune them, proofread and suggest apt banner taglines/headers. Digital Marketing Manila offers content development services as well, so you are fully covered in case you need updated content.</p>             
                         </div>
@@ -96,7 +96,7 @@
                 <v-row>
                     <v-col cols="12 d-flex" lg="6"  > 
                         <div class="">
-                            <h5 class="white--text font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 mb-5">Payment And Pricing</h5>
+                            <h5 class="white--text font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">Payment And Pricing</h5>
                             <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">Pricing range is important to consider when choosing a website developer in Manila. A company that offers customizable pricing as per the service requirements is always preferable. There are many aspects of web designing and no limit to the number of features one can include. Hence, taking the time to decide upon the useful ones helps to optimize expenses and save money.</p>
                             <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">The payment structure is also important to consider. We offer a transparent payment structure and leave room for customization.</p>                                            
                         </div>
@@ -118,7 +118,7 @@
                 <v-row>
                     <v-col cols="12 d-flex" lg="6"  > 
                         <div class="">
-                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 mb-5">Familiarity With The Contemporary Trends</h5>
+                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">Familiarity With The Contemporary Trends</h5>
                             <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">The website industry is always changing, and new trends are always arising here. The developers should be able to grow along with these changing trends. Look for an agency, that is always implementing new ideas. Our WordPress Developer in the Philippines helps you with updated facilities like content management systems so that you don’t have to rely on anyone else to tweak your website.</p>      
                         </div>
                     </v-col>
@@ -138,12 +138,12 @@
                 <v-row>
                     <v-col cols="12 d-flex" lg="6" class=""  > 
                         <div class="">
-                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 mb-5">What Differentiates Us From Others?</h5>
+                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">What Differentiates Us From Others?</h5>
                             <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">Web design’s primary purpose is to combine form and function in a way, that makes a website enjoyable, interesting, navigable and usable. Now, hiring an agency is just the 1st step; there are other multitudes of factors you need to consider when discussing their website’s features with a website developer in the Philippines.<br>Ideally, an effective website should provide –</p> 
                             <ul class="mb-5 ml-8 font-weight-light text-xl-h6 text-lg-h6 text-md-h4 text-sm-h5">
                                 <li class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">A user-friendly experience</li>
                                 <li class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">On-going sales</li>
-                                <li class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">A steady flow of leads</li>
+                                <li class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5 ">A steady flow of leads</li>
                             </ul>
                             <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">To attain all goals, there are certain parameters that a website must meet. At Digital Marketing Manila, we are highly vigilant of the entire process. Our recommendations have helped clients with outstanding results in terms of customer satisfaction and conversion rates. Our website developer in the Philippines helps you out with a few critical factors during the process.</p>             
                         </div>
@@ -189,10 +189,6 @@ export default {
     #Sixth-section {
         padding-bottom: 100px;
         padding-top: 100px;
-    }
-    #Hero-Description{
-        text-align: center !important;
-        padding-top: 50px;
     }
     #hero-sectionheight{
         height: 21.1%;

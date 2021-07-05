@@ -3,17 +3,17 @@
         <v-row>
             <v-col cols="12">
                 <div class=" text-center Services-Font">
-                <h1 class="white--text font-weight-bold text-xl-h1 text-lg-h2 text-md-h3 text-sm-h2 py-8">FULL-SERVICE DIGITAL MARKETING FIRM</h1>
+                <h1 class="white--text font-weight-bold text-xl-h1 text-lg-h2 text-md-h3 text-sm-h4 py-8">FULL-SERVICE DIGITAL MARKETING FIRM</h1>
                 </div>
             </v-col>
-            <v-col cols="4" sm="12" md="4" lg="4" xl="4" v-for="service in services" :key="service.id" >
+            <v-col cols="12" lg="4" v-for="service in services" :key="service.id" >
                 <v-card
                 class="pa-10 Services-hover Services-Font"
                 outlined
                 shaped
                 >
-                    <h3 class="mb-5 blue--text text-center Services-Font font-weight-bold text-xl-h3 text-lg-h5 text-md-h6 text-sm-h4 pt-5">{{service.title}}</h3>
-                    <p class="text-justify text-justify text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">{{service.discription}}</p>
+                    <h3 class="mb-5 blue--text text-center Services-Font font-weight-bold text-xl-h3 text-lg-h5 text-md-h5 text-sm-h4 text-h5wa pt-5">{{service.title}}</h3>
+                    <p class="text-center text-xl-h5 text-lg-h6 text-md-h6 text-sm-h5">{{service.discription}}</p>
                 </v-card>
             </v-col>
         </v-row>

@@ -1,7 +1,7 @@
 <template>
   <v-app > 
-    <v-main style="margin-top:50px;" class="desktop-main">
-      <v-sheet class="radius" color="#1b75bb" height="100%" width="100%" style="padding-top: 100px;">
+    <v-main style="margin-top:50px;" class="">
+      <div id="hero-homepage" class="blue lighten-2 pt-16">
         <v-container>
           <v-row>
             <v-col cols="12" sm="12" md="6" lg="6" xl="6">
@@ -18,8 +18,8 @@
               <div class="d-block ">
                 <h3 class="white--text font-weight-regular text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4">WORLD-CLASS DIGITAL BUILDER</h3>
                 <h1 class="white--text font-weight-bold py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">PANDAY DIGITAL Setting Outstanding Digital Standards</h1>
-                <p class="white--text font-weight-light text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">The leading digital marketing agency in the Philippines can only match the digital brilliance your audience expects from you with globally tested digital creativity. Don't settle for anything less than the unexpected when it comes to your brand.</p><br>
-                <v-btn class="Rounded-botton px-10 py-8 text-lg-h6 text-md-subtitle-1 text-sm-h5"
+                <p class="white--text font-weight-light text-xl-h5 text-lg-h6 text-md-subtitle-1 text-sm-h5">The leading digital marketing agency in the Philippines can only match the digital brilliance your audience expects from you with globally tested digital creativity. Don't settle for anything less than the unexpected when it comes to your brand.</p><br>
+                <v-btn class="M-textCenter blue--text lighten-2 Rounded-botton px-10 py-8 text-lg-h6 text-md-subtitle-1 text-sm-h5"
                   elevation="1"
                 ><nuxt-link to="contact">Get a Quote</nuxt-link>
                 </v-btn>
@@ -27,60 +27,39 @@
             </v-col>
           </v-row>
         </v-container>
-      </v-sheet>
-    </v-main>
-    <v-sheet 
-    class="desktop-main"
-    max-height="100px"
-    max-width="100%"
-    >
-      <svg id="hill-side-round" style=" margin-bottom:10px;fill: white;height: 100%;width: 100%;transform: scaleY(-1)scaleX(-1);background: rgb(27, 117, 187)" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1442,34.6187945 C1315.02765,14.2772114 1160.84924,2.89696087 977.282647,2.89696087 C645.766901,2.89696087 281.275997,40.0139604 0,100 L0,0 L1442,0 L1442,34.6187945 Z"></path> </svg>
-    </v-sheet>
-    <v-main class="desktop-main">
-      <v-sheet 
-      max-width="100%" 
-      max-height="100%"
-      >
+      </div>
+      <svg id="hill-side-round" style=" margin-bottom:10px;fill: white;height:100px;width: 100%;transform: scaleY(-1)scaleX(-1);background:#64B5F6" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1442,34.6187945 C1315.02765,14.2772114 1160.84924,2.89696087 977.282647,2.89696087 C645.766901,2.89696087 281.275997,40.0139604 0,100 L0,0 L1442,0 L1442,34.6187945 Z"></path> </svg>
+      <div id="firstSection-homepage" class="">
         <v-container>
           <v-row>
-            <v-col cols="6" sm="12" md="6" lg="6" xl="6">
+            <v-col cols="12" lg="6" >
               <RegestrationForm/>
             </v-col>
-            <v-col cols="6" sm="12" md="6" lg="6" xl="6" >
+            <v-col cols="12" lg="6"  >
               <div class="d-block ">
-                <h3 class="blue--text font-weight-regular text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4 pt-5">WORLD-CLASS DIGITAL BUILDER</h3>
-                <h1 class="blue--text font-weight-bold text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2 py-8">PANDAY DIGITAL Driving Outstanding Digital Specifications</h1>
-                <p class="black--text font-weight-light text-justify text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5 text-justify">By now, we've all figured it out. When it comes to spotting genuine and reputable products online, Filipinos are always one step ahead. Panday Digital provides simple, data-backed strategies for measurable results that ideally target their admiration.<br><br> We recognize how carefully planned digital strategies have resulted in increased traffic, revenue, and recognition. Today is your last chance to claim the top spot in your target audience's digital universe. Are you up for it?
+                <h3 class="blue--text lighten-2 font-weight-regular text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 pt-5">WORLD-CLASS DIGITAL BUILDER</h3>
+                <h1 class="blue--text lighten-2 font-weight-bold text-xl-h2 text-lg-h3 text-md-h3 text-sm-h2 py-8">PANDAY DIGITAL Driving Outstanding Digital Specifications</h1>
+                <p class=" lighten-2 font-weight-light text-justify text-xl-h5 text-lg-h6 text-md-h6 text-sm-h5 text-justify">By now, we've all figured it out. When it comes to spotting genuine and reputable products online, Filipinos are always one step ahead. Panday Digital provides simple, data-backed strategies for measurable results that ideally target their admiration.<br><br> We recognize how carefully planned digital strategies have resulted in increased traffic, revenue, and recognition. Today is your last chance to claim the top spot in your target audience's digital universe. Are you up for it?
                 </p><br><br>
                 <v-btn x-large color="blue"
                   elevation="1"
-                  class="px-15 py-10 "
+                  class="px-15 py-10 Responsivebutton"
                 ><span class="white--text font-weight-light text-justify text-xl-h6 text-lg-h6 text-md-subtitle-2 text-sm-h5">SEE WHAT WE OFFER</span>
                 </v-btn> 
               </div>
             </v-col>
           </v-row>
         </v-container>
-      </v-sheet>
-    </v-main>
-    <v-main class="desktop-main">
-      <svg id="hill-side-round" style="fill: rgb(27, 117, 187);height: 100px; width: 100%; transform: scaleY(-1) scaleX(-1); position: relative;top: 10px;" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1442,34.6187945 C1315.02765,14.2772114 1160.84924,2.89696087 977.282647,2.89696087 C645.766901,2.89696087 281.275997,40.0139604 0,100 L0,0 L1442,0 L1442,34.6187945 Z"></path> </svg>    
-      <v-sheet class="" color="#1b75bb" height="101%" width="100%">
+      </div>
+      <svg id="hill-side-round" style="fill:#64B5F6 ;height: 100px; width: 100%; transform: scaleY(-1) scaleX(-1); position: relative;top: 10px;" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1442,34.6187945 C1315.02765,14.2772114 1160.84924,2.89696087 977.282647,2.89696087 C645.766901,2.89696087 281.275997,40.0139604 0,100 L0,0 L1442,0 L1442,34.6187945 Z"></path> </svg> 
+      <div id="SecondSection-homepage" class="blue lighten-2">
         <FullService/>
-      </v-sheet>
-    </v-main>
-    <v-main class="desktop-main">
-      <v-sheet max-width="100%" max-height="100%">
-        <svg id="hill-side-round" style="fill:  rgb(27, 117, 187);height: 100px;width: 100%;transform: scaleY(1)scaleX(1);" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1442,34.6187945 C1315.02765,14.2772114 1160.84924,2.89696087 977.282647,2.89696087 C645.766901,2.89696087 281.275997,40.0139604 0,100 L0,0 L1442,0 L1442,34.6187945 Z"></path> </svg>
-      </v-sheet>
-    </v-main>
-    <v-main class="desktop-main">
-      <v-sheet class="" height="100%" width="100%">
+      </div>  
+      <svg id="hill-side-round" style="fill: #64B5F6;height: 100px;width: 100%;transform: scaleY(1)scaleX(1);" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1442,34.6187945 C1315.02765,14.2772114 1160.84924,2.89696087 977.282647,2.89696087 C645.766901,2.89696087 281.275997,40.0139604 0,100 L0,0 L1442,0 L1442,34.6187945 Z"></path> </svg>
+      <div id="ThirdSection-homepage">
         <BeOnTop/>
-      </v-sheet>
-    </v-main>
-    <v-main class="desktop-main">
-      <v-sheet class="" height="100%" width="100%">
+      </div>
+      <div id="FourthSection-homepage">
         <v-container>
           <v-row>
             <v-col class="Text-center"  cols="12" >
@@ -88,7 +67,7 @@
             </v-col>            
             <v-col class="d-flex"  sm="12" md="6" lg="6" xl="6" >
               <div class="div">
-                <p class="font-weight-light text-xl-h5 text-lg-h5 text-md-h6 text-sm-h3">
+                <p class="font-weight-light text-xl-h5 text-lg-h5 text-md-h6 text-sm-h6">
                   1. Knowledgeable and Highly Experienced.
                   <br><br>
                   2. Particular with Deadlines.
@@ -103,13 +82,12 @@
             </v-col>
             <v-col class=""  sm="12" md="6" lg="6" xl="6" >
               <div class="div">
-                <p class="font-weight-light text-xl-h5 text-lg-h5 text-md-h6 text-sm-h3">Why would you select us over all the other digital marketing firms in town?  Is it just due to the diverse services we provide, or is there more to us?<br><br>There is, indeed, more to us. The result of your digital marketing plan, how it appears to the consumers' eyes, and the outcomes it produces, are evidence of our experience and competence in the field. Plus, how we go about the entire approach is a wholesome exhibition of our service.</p><br>
+                <p class="font-weight-light text-xl-h5 text-lg-h5 text-md-h6 text-sm-h6">Why would you select us over all the other digital marketing firms in town?  Is it just due to the diverse services we provide, or is there more to us?<br><br>There is, indeed, more to us. The result of your digital marketing plan, how it appears to the consumers' eyes, and the outcomes it produces, are evidence of our experience and competence in the field. Plus, how we go about the entire approach is a wholesome exhibition of our service.</p><br>
               </div>
             </v-col>
           </v-row>
         </v-container>
-      </v-sheet>
-    </v-main>
+      </div>
     <!--
     <v-main class="desktop-main">
       <svg id="deepening-off" style="fill: rgb(27, 117, 187); height:60px; width:100%; transform: scaleY(-1) scaleX(-1);     position: relative; top: 7px;" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M394.85237,100 L-1,100 L-1,0 L-1,1.07456559 C157.650655,93.379895 352.733938,121.089042 584.249849,84.2020074 C913.749958,31.7033176 1199.33335,4.31314693 1441.00001,2.03149535 L1441.00001,0 L-0.999987893,0 L1441,0 L-0.999987893,0 L1441,0 L1441,100 L-1,100 L-1,0 L-1,1.07456559 C112.35263,67.0248254 244.303421,99.9999702 394.85237,100 Z" id="deepening-off" transform="translate(720.000006, 50.000000) scale(1, -1) translate(-720.000006, -50.000000) "></path> </svg>
@@ -175,7 +153,6 @@
       </v-sheet>
     </v-main>
     -->
-    <v-main class="desktop-main">
       <div class="container">
         <v-row>
           <v-col
@@ -192,25 +169,19 @@
                 :key="faq.id"
               >
                 <v-expansion-panel-header>
-                  <h3 class="font-weight-regular text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4">{{faq.question}}</h3>
+                  <h3 class="font-weight-regular text-xl-h4 text-lg-h5 text-md-h6 text-sm-h6">{{faq.question}}</h3>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  <p class="text-xl-h5 text-lg-h6 text-md-h6 text-sm-h4 font-weight-light">{{faq.answer}}</p>
+                  <p class="text-xl-h5 text-lg-h6 text-md-h6 text-sm-h6 font-weight-light">{{faq.answer}}</p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
             </v-expansion-panels>
           </v-col>
         </v-row>
       </div>
-    </v-main >
-    <v-main class="desktop-main">
-      <div class="testing101">
-        <h1 v-bind:jr="jr"></h1>
-      </div>
     </v-main>
-  </v-app>
+    </v-app>
 </template>
-
 <script >
 export default {
     layout: 'dashboard',
@@ -222,7 +193,6 @@ export default {
     },
     data() {
       return {
-         jr:'Click me',
         faqs:[
           {
             id:1,

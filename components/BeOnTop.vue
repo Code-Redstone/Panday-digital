@@ -5,10 +5,10 @@
             <div class="div text-center">
               <h3 class="black--text text--secondary font-weight-light text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4 ">INCREASE TRAFFIC AND REVENUE</h3>
               <h2  class="black--text text--secondary text-xl-h2 text-lg-h4 text-md-h5 text-sm-h3 font-weight-bold py-5"> Be On the Top & Get More Traffic to Your Website</h2>
-              <p class="black--text text--secondary text-h6 font-weight-light text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">We are thrilled to illuminate your thoughts when it comes to leading your digital journey forward as the Philippines' top digital marketing agency. Here are our top-rated services that attest to our legacy for you.</p>
+              <p class="black--text text--secondary text-h6 font-weight-light text-xl-h4 text-lg-h5 text-md-h56 text-sm-h5">We are thrilled to illuminate your thoughts when it comes to leading your digital journey forward as the Philippines' top digital marketing agency. Here are our top-rated services that attest to our legacy for you.</p>
             </div>
         </v-col>            
-        <v-col class="text-center" cols="4" sm="12" md="4" lg="4" xl="4" v-for="seo in seos " :key="seo.id" >
+        <v-col class="text-center" cols="12" lg="4"  v-for="seo in seos " :key="seo.id" >
             <v-card 
             class="pa-8 Services-hover Services-Font rounded-xl"
             outlined
@@ -20,8 +20,8 @@
                 :src="require(`~/assets/resources/`+seo.img)"
                 >
                 </v-img>
-                <h3 class="mb-5 font-weight-bold text-center Services-Font text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4">{{seo.title}}</h3>
-                <p class="text-justify text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">{{seo.discription}}</p>
+                <h3 class="mb-5 font-weight-bold text-center Services-Font text-xl-h4 text-lg-h5 text-md-h5 text-sm-h4">{{seo.title}}</h3>
+                <p class="text-justify text-xl-h5 text-lg-h5 text-md-h6 text-sm-h5">{{seo.discription}}</p>
             </v-card>
         </v-col>
     </v-row>

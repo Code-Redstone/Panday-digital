@@ -5,7 +5,7 @@
                 <h3 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4 pt-5">Digital Marketing Proposal</h3>
             </v-col>
             <v-col cols="12 " class="py-0">
-                <p class="ma-0 font-weight-light text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">Fields with an asterisk (*) are compulsory.</p>
+                <p class="ma-0 font-weight-light text-xl-h4 text-lg-h5 text-md-h5 text-sm-h5">Fields with an asterisk (*) are compulsory.</p>
             </v-col>              
             <v-col cols="12" lg="6" class="custom-width">
                 <v-text-field label="Full name" auto-grow outlined rows="2" row-height="15">
@@ -94,8 +94,8 @@
                 </v-container>
             </v-col>
             <v-col cols="12">
-                <v-btn id="Regestrationbutton"  color="blue"
-                class="px-15 py-10"
+                <v-btn id="Regestrationbutton" color="blue"
+                class="px-15 py-10 Responsivebutton"
                 elevation="1"
                 ><span class=" white--text font-weight-light text-justify text-xl-h6 text-lg-h6 text-md-subtitle-2 text-sm-h5">LET THE EXPERTS ASSIST YOU</span>
                 </v-btn>             
