@@ -89,11 +89,23 @@ export default {
   $color-pack: false;
 
   @import '~vuetify/src/styles/main.sass';
+    @media screen and (max-width:700px) {
+        #offersheroimage{
+            width: 100% !important;
+        }
+        .Dn700{
+            display: none !important;
+        }
+    }
   @media screen and (max-width:400px) {
       .Responsivebutton {
         padding: 10px 10px 10px 10px !important;
         width: 100% !important;
     }
+    .px400-adjust{
+        padding: 10px !important;
+    }
+
   }
   @media screen and (max-width:1264px) and (min-width:10px) {
     .desktop-main,
@@ -164,7 +176,6 @@ header {
     width: 100%;
     height: 100px;
     display: flex;
-    box-shadow: 10px 0px 19px #272626;
     z-index: 9;
     position: fixed;
     background-color: white;

@@ -1,198 +1,165 @@
 <template>
     <v-app>
-        <v-main style="">
-            <v-sheet class="radius" color="#1b4cbb" height="100%" width="100%" style="padding-top: 150px;">
+        <v-main style="margin-top:50px;">
+            <div id="hero-offer-section" class="pb-10 pt-16 pink lighten-4">
                 <v-container>
-                <v-row>
-                    <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                        <div class="first-image text-center">
-                            <v-img
-                            class="ma-auto"
-                            max-width="800px"
-                            max-height="600px"
-                            :src="require(`~/assets/resources/PPC.png`)"
-                            />
-                        </div>
-                    </v-col>
-                    <v-col class=" center"  cols="12" sm="12" md="6" lg="6" xl="6" color="white">
-                        <div class="d-block ">
-                            <h3 class="white--text font-weight-bold text-xl-h3 text-lg-h3 text-md-h6 text-sm-h4 mb-10">Top Pay Per Click Advertising <br>Agency in the Philippines</h3>
-                            <p class="white--text font-weight-light text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5 mb-3">Generate double the leads with us </p>
-                            <p class="white--text font-weight-light text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">for your Pay Per Click Advertising.</p><br>
-                            <v-btn class="Rounded-botton px-10 py-8 text-lg-h5 text-md-subtitle-1 text-sm-h5"
-                            elevation="1"
-                            ><nuxt-link to="contact">Get a Quote</nuxt-link> 
-                            </v-btn>
-                        </div>
-                    </v-col>
-                </v-row>
+                    <v-row>
+                        <v-col cols="12"  lg="6">
+                            <div class="first-image text-center">
+                                <v-img
+                                id="offersheroimage"
+                                class="ma-auto"
+                                width="600px"
+                                max-width="800px"
+                                max-height="600px"
+                                :src="require(`~/assets/resources/pricing.png`)"
+                                />
+                            </div>
+                        </v-col>
+                        <v-col class=" center"  cols="12"  lg="6" color="white">
+                            <RegestrationForm/>
+                        </v-col>
+                    </v-row>
                 </v-container>
-            </v-sheet>
-        </v-main>
-        <svg id="peak-center-soft" style="fill:#ffffff; height:100%;width:100%;background: #1b4cbb;transform: scale(-1.5);" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
-        <v-main>
-            <v-sheet 
-            max-width="100%" 
-            max-height="100%"
-            >
+            </div>
+            <svg id="peak-center-soft" style="fill:#ffffff; height:100px;width:100%;background: #F8BBD0;transform: scaleY(-1.5);" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
+            <div id="firstoffers-Section" class="pt-12">
                 <v-container>
-                <v-row>
-                    <v-col cols="6" sm="12" md="6" lg="6" xl="6" >
-                    <div class="d-block ">
-                        <h3 class="indigo--text darken-4 font-weight-regular text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4 pt-5">WORLD-CLASS DIGITAL BUILDER</h3>
-                        <h1 class="indigo--text darken-4 font-weight-bold text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2 py-8">PANDAY DIGITAL Driving Phenomenal Digital Standards</h1>
-                        <p class="indigo--text darken-4 font-weight-light text-justify text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5 text-justify">We all know this by now. Filipinos are always one step forward when it comes to detecting authentic and worthwhile brands online. Digital Marketing Manila yields straightforward and data-tested approaches for measurable results that expertly target their wonder.<br><br> We identify with intricately-crafted digital strategies translated to boosted traffic, revenue, and recognition. Today marks your edge to land the top space into your audience’s digital world. Are you in?
-                        </p><br><br>
-                        <v-btn x-large color="indigo darken-4"
-                        elevation="1"
-                        class="px-15 py-10 "
-                        ><span class="white--text font-weight-light text-justify text-xl-h6 text-lg-h6 text-md-subtitle-2 text-sm-h5"> See What We Can Do </span>
-                        </v-btn> 
-                    </div>
-                    </v-col>
-                    <v-col cols="6" sm="12" md="6" lg="6" xl="6">
-                    <RegestrationForm/>
-                    </v-col>
-                </v-row>
+                    <v-row>
+                        <v-col cols="12">
+                            <div class="Title">
+                                <h1 class="deep-purple--text lighten-4 text-center font-weight-bold py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">CMS Development Pricing</h1>
+                            </div>
+                        </v-col>
+                        <v-col v-for="(price) in pricing" :key="price.id" cols="12" lg="4" md="6">
+                            <div >
+                                <v-card
+                                    class="mx-auto "
+                                    max-width="540"
+                                    :color="price.bodycolor"
+                                >
+                                    <v-sheet
+                                    height="100px"
+                                    :color="price.titlecolor"
+                                    class="d-flex "
+                                    >
+                                        <h1 class="font-weight-thin text-h6 white--text text-center ma-auto">{{price.title}}</h1>
+                                    </v-sheet>
+                                    <v-sheet
+                                    height="300px"
+                                    :color="price.bodycolor"
+                                    class=""
+                                    >
+                                        <div class="d-block">
+                                            <h1 class="ma-auto white--text text-center font-weight-thin py-5 text-xl-subtitle-1 text-lg-h4 text-md-h4 text-sm-h4">
+                                                ₱{{price.basicprice}} - ₱{{price.proprice}}   
+                                            </h1>
+                                            <h1 class="ma-auto white--text text-center font-weight-thin py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">
+                                                Save {{price.save}}% today
+                                            </h1>
+                                            <p class="ma-auto font-weight-thin text-center white--text px-16 pt-0 mx-10">{{price.description}}</p>
+                                        </div>
+                                    </v-sheet>
+                                    <v-card-actions class="d-block text-center pb-16">
+                                        <v-btn
+                                            color="#ffffff52"
+                                            class="text-center title font-weight-light white--text px-10 py-8 rounded-lg mb-5"
+                                            x-large
+                                        >
+                                            Buy Basic
+                                        </v-btn>
+                                        <br>
+                                        <v-btn
+                                            color="#ffffff52"
+                                            class="text-center title font-weight-light white--text px-10 py-8 rounded-lg "
+                                            x-large
+                                        >
+                                            Buy Pro
+                                        </v-btn>                                    
+                                    </v-card-actions>
+                                </v-card>
+                            </div>
+                        </v-col>
+                    </v-row>
+                </v-container>  
+            </div>    
+            <svg id="" style="fill:#fff; height:100px;background:#F06292;position:relative;top:7px;" class="w-100 positionR-bottom3 flip Dn700" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <polygon class=" pink lighten-2" points="0 0 1442 0 0 100"></polygon> </svg>
+            <div id="second-section" class="pink lighten-2">
+                    <v-container class="d-flex ">
+                        <v-row>
+                            <v-col cols="12 d-flex" lg="6"  > 
+                                <div class="text-center">
+                                    <h1 class="white--text text-center font-weight-bold py-5 text-xl-h3 text-lg-h4 text-md-h5 text-sm-h2">Custom Web Development Pricing</h1>
+                                    <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">Pricing for custom web development is difficult to anticipate, as each job is unique. After we've established the requirements and broken them down into User Stories, we'll be able to provide you a price. This enables us to construct tasks based on the user story requirements and assign time to each job.</p>             
+                                    <p class="white--text  font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">The TOTAL price is then calculated by multiplying the number of hours each work by our hourly rate ($1,200). However, we define an MVP (minimum viable product) and great to have features in our Agile strategy. Payments are made only after the milestones that we set jointly are met. Unless otherwise specified, these are usually two-week work sprints. In this process, we are quite adaptable! </p>   
+                                    <p class="white--text  font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">We do it this way to deliver full transparency to our clients, no surprises and you know what expect beforehand! Many times during the development of a custom project the client comes up with new ideas. Without this method, it`s hard to plan in the new changes, but with this method, we can add it easily to the next sprint of work and tell you the costs beforehand.</p>   
+                                </div>
+                            </v-col>
+                            <v-col cols="12" lg="6" class="d-flex">
+                                    <v-img
+                                    class="ma-auto"
+
+                                    max-width="700px"
+                                    max-height="700px"
+                                    :src="require(`~/assets/resources/CWD.png`)"
+                                    />
+                            </v-col>
+                        </v-row>
+                    </v-container>
+            </div>
+            <svg id="skewed" style="fill:#F06292; height:100px;background:#fff;" class="w-100 positionR-bottom3 flip Dn700 " preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <polygon  points="0 0 1442 0 0 100"></polygon> </svg>
+            <div id="third-section" class="">
+                <v-container>  
+                    <v-row>
+                        <v-col cols="12">
+                            <div class="Title">
+                                <h1 class="deep-purple--text lighten-4 text-center font-weight-bold py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2"> Maintenance Packages</h1>
+                            </div>
+                        </v-col>
+                        <v-col v-for="(cmsprice) in CMSpricing" :key="cmsprice.id" cols="12" lg="4" md="6">
+                            <div >
+                                <v-card
+                                    class="mx-auto "
+                                    max-width="540"
+                                    :color="cmsprice.bodycolor"
+                                >
+                                    <v-sheet
+                                    height="100px"
+                                    :color="cmsprice.titlecolor"
+                                    class="d-flex "
+                                    >
+                                        <h1 class="font-weight-thin text-h6 white--text text-center ma-auto">{{cmsprice.title}}</h1>
+                                    </v-sheet>
+                                    <v-sheet
+                                    height="300px"
+                                    :color="cmsprice.bodycolor"
+                                    class=""
+                                    >
+                                        <div class="d-block">
+                                            <h1 class="ma-auto white--text text-center font-weight-thin py-5 text-xl-subtitle-1 text-lg-h4 text-md-h4 text-sm-h4">
+                                                ₱{{cmsprice.basicprice}} - ₱{{cmsprice.proprice}}   
+                                            </h1>
+                                            <h1 class="ma-auto white--text text-center font-weight-thin py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">
+                                                Save {{cmsprice.save}}% today
+                                            </h1>
+                                            <p id="px400-adjust" class="ma-auto font-weight-thin text-center white--text px-16 pt-0 mx-10">{{cmsprice.description}}</p>
+                                        </div>
+                                    </v-sheet>
+                                    <v-card-actions class="d-block text-center pb-16">
+                                        <v-btn
+                                            color="#ffffff52"
+                                            class="text-center title font-weight-light white--text px-10 py-8 rounded-lg mb-5"
+                                            x-large
+                                        >
+                                            Avail
+                                        </v-btn>                                
+                                    </v-card-actions>
+                                </v-card>
+                            </div>
+                        </v-col>
+                    </v-row>
                 </v-container>
-            </v-sheet>
-        </v-main>
-        <v-main>
-            <v-container>
-                <v-row>
-                    <h3 class="white--text font-weight-bold text-xl-h3 text-lg-h3 text-md-h6 text-sm-h4 mb-10"> Why Choose PPC Services By Panday digital?</h3>
-                    <v-col cols="6"> 
-                        <v-card
-                        class="pa-10 Services-hover Services-Font"
-                        outlined
-                        shaped
-                        >
-                            <h3 class="mb-5 indigo--text darken-4 text-center Services-Font font-weight-bold text-xl-h3 text-lg-h5 text-md-h6 text-sm-h4 pt-5">Engaging Content</h3>
-                            <p class="text-justify text-justify text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">To create compelling ads and banner, you need content. At Digital Marketing Manila, we have a team of expert copywriters who can quite literally convince your customer that they need to buy the product even if they do not really need it! We do not create ads that are annoying or obnoxious. We put a lot of thought in it and build it in a way that reflects what your brand stands for.</p>
-                        </v-card>
-                    </v-col>
-                    <v-col cols="6">
-                        <v-card
-                        class="pa-10 Services-hover Services-Font"
-                        outlined
-                        shaped
-                        >
-                            <h3 class="mb-5 indigo--text darken-4 text-center Services-Font font-weight-bold text-xl-h3 text-lg-h5 text-md-h6 text-sm-h4 pt-5">Holistic Approach</h3>
-                            <p class="text-justify text-justify text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">We always strive to create strategies that reduce your Google ads spend as much as possible while producing satisfactory results. We are not here to spend your money but to save it. We offer our PPC management services at a very affordable rate compared to our competitors because we want to help every business that is struggling to make it successful.</p>
-                        </v-card>
-                    </v-col>
-                    <v-col cols="4">
-                        <v-card
-                        class="pa-10 Services-hover Services-Font"
-                        outlined
-                        shaped
-                        >
-                            <h3 class="mb-5 indigo--text darken-4 text-center Services-Font font-weight-bold text-xl-h3 text-lg-h5 text-md-h6 text-sm-h4 pt-5">Holistic Approach</h3>
-                            <p class="text-justify text-justify text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">We always strive to create strategies that reduce your Google ads spend as much as possible while producing satisfactory results. We are not here to spend your money but to save it. We offer our PPC management services at a very affordable rate compared to our competitors because we want to help every business that is struggling to make it successful.</p>
-                        </v-card>
-                    </v-col>
-                    <v-col cols="4">
-                        <v-card
-                        class="pa-10 Services-hover Services-Font"
-                        outlined
-                        shaped
-                        >
-                            <h3 class="mb-5 indigo--text darken-4 text-center Services-Font font-weight-bold text-xl-h3 text-lg-h5 text-md-h6 text-sm-h4 pt-5">Holistic Approach</h3>
-                            <p class="text-justify text-justify text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">We always strive to create strategies that reduce your Google ads spend as much as possible while producing satisfactory results. We are not here to spend your money but to save it. We offer our PPC management services at a very affordable rate compared to our competitors because we want to help every business that is struggling to make it successful.</p>
-                        </v-card>
-                    </v-col>
-                    <v-col cols="4">
-                        <v-card
-                        class="pa-10 Services-hover Services-Font"
-                        outlined
-                        shaped
-                        >
-                            <h3 class="mb-5 indigo--text darken-4 text-center Services-Font font-weight-bold text-xl-h3 text-lg-h5 text-md-h6 text-sm-h4 pt-5">Holistic Approach</h3>
-                            <p class="text-justify text-justify text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">We always strive to create strategies that reduce your Google ads spend as much as possible while producing satisfactory results. We are not here to spend your money but to save it. We offer our PPC management services at a very affordable rate compared to our competitors because we want to help every business that is struggling to make it successful.</p>
-                        </v-card>
-                    </v-col>
-                </v-row>
-            </v-container>
-        </v-main>
-        <v-main>
-            <v-container>
-                <v-row>
-                    <v-col class=" center"  cols="12" sm="12" md="6" lg="6" xl="6" color="white">
-                        <div class="first-image text-center">
-                            <v-img
-                            class=""
-                            max-width="60%"
-                            max-height="60%"
-                            :src="require(`~/assets/resources/illustration.png`)"
-                            />
-                        </div>                    
-                    </v-col>
-                    <v-col cols="12" sm="12" md="6" lg="6" xl="6" class="d-flex">
-                        <div class="d-block ">
-                            <h1 class="indigo--text darken-4   font-weight-bold py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">SEO Audit Services</h1>
-                            <h1 class="indigo--text darken-4 font-weight-thin py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">Get a Complete Audit with Actionable Plan</h1>
-                            <p class="indigo--text darken-4 font-weight-light text-xl-h5 text-lg-h5 text-md-subtitle-1 text-sm-h5">Our audit services are 100% manually checked for each factors and are provided with important recommendations which suits your business.</p><br>
-                        </div>
-                    </v-col>
-                </v-row>
-                <v-row>
-                    <v-col cols="12">
-                        <div class="Title">
-                            <h1 class="indigo--text darken-4  text-center font-weight-bold py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">SEO Audit Plans and Pricing</h1>
-                        </div>
-                    </v-col>
-                </v-row>
-                <v-row>
-                    <v-col v-for="(price) in pricing" :key="price.id" cols="4">
-                        <div >
-                            <v-card
-                                class="mx-auto "
-                                max-width="540"
-                                :color="price.bodycolor"
-                            >
-                                <v-sheet
-                                height="100px"
-                                :color="price.titlecolor"
-                                class="d-flex "
-                                >
-                                    <h1 class="font-weight-thin display-1 white--text text-center ma-auto">{{price.title}}</h1>
-                                </v-sheet>
-                                <v-sheet
-                                height="300px"
-                                :color="price.bodycolor"
-                                class=""
-                                >
-                                    <div class="d-block">
-                                        <h1 class="ma-auto white--text text-center font-weight-thin py-5 text-xl-subtitle-1 text-lg-h4 text-md-h5 text-sm-h2">
-                                            ₱{{price.basicprice}} - ₱{{price.proprice}}   
-                                        </h1>
-                                        <h1 class="ma-auto white--text text-center font-weight-thin py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">
-                                            Save {{price.save}}% today
-                                        </h1>
-                                        <p class="ma-auto font-weight-thin text-center white--text px-16 pt-0 mx-10">{{price.description}}</p>
-                                    </div>
-                                </v-sheet>
-                                <v-card-actions class="d-block text-center pb-16">
-                                    <v-btn
-                                        color="#ffffff52"
-                                        class="text-center title font-weight-light white--text px-10 py-8 rounded-lg "
-                                        x-large
-                                    >
-                                        Buy Basic
-                                    </v-btn>
-                                    <v-btn
-                                        color="#ffffff52"
-                                        class="text-center title font-weight-light white--text px-10 py-8 rounded-lg "
-                                        x-large
-                                    >
-                                        Buy Pro
-                                    </v-btn>                                    
-                                </v-card-actions>
-                            </v-card>
-                        </div>
-                    </v-col>
-                </v-row>
-            </v-container>
+            </div>
         </v-main>
     </v-app>
 </template>
@@ -329,6 +296,48 @@ export default {
             save:'12',
             description:'Ideal for ecommerce companies with the goal to reach  audiences.',
             },                                                                                   
+        ],
+         CMSpricing:[
+            {
+            id:1,
+            titlecolor:'#5edeb7',
+            title:'SEO Maintenance',
+            bodycolor:'#5aceab',
+            basicprice:'24,000',
+            proprice:'95,000',
+            save:'12',
+            description:'On-Page optimization, Internal linking and Image optimization,  (10 hours per month)',
+            },
+            {
+            id:2,
+            titlecolor:'#71b5f9',
+            title:'SEO Maintenance',
+            bodycolor:'#57a9f9',
+            basicprice:'1,500',
+            proprice:'2,500',
+            save:'12',
+            description:'On-Page optimization, Internal linking and Image optimization,  (5 hours per month)',
+            },
+            {
+            id:3,
+            titlecolor:'rgb(200, 119, 244)',
+            title:'WordPress ',
+            bodycolor:'#bd73f6',
+            basicprice:'5,000',
+            proprice:'8,500',
+            save:'12',
+            description:'WP Core, Plugins, Daily Backups, Error Reporting, Security, SMALL content changes',
+            },  
+            {
+            id:4,
+            titlecolor:'#cea55a',
+            title:'Website Speed Optimization ',
+            bodycolor:'rgb(249 199 87)',
+            basicprice:'5,000',
+            proprice:'8,500',
+            save:'12',
+            description:'* One Time Cost *',
+            },                                                                                    
         ],
     }
   }

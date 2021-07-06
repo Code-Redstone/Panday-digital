@@ -65,7 +65,7 @@
             <v-col class="Text-center"  cols="12" >
               <h3  class="blue--text text-center text-xl-h3 text-lg-h4 text-md-h5 text-sm-h3 font-weight-bold py-5"> Why Panday Digital Should be Partner in Digital Marketing</h3>
             </v-col>            
-            <v-col class="d-flex"  sm="12" md="6" lg="6" xl="6" >
+            <v-col class="d-flex"  cols="12" md="6" lg="6" xl="6" >
               <div class="div">
                 <p class="font-weight-light text-xl-h5 text-lg-h5 text-md-h6 text-sm-h6">
                   1. Knowledgeable and Highly Experienced.
@@ -80,7 +80,7 @@
                   </p><br>
               </div>
             </v-col>
-            <v-col class=""  sm="12" md="6" lg="6" xl="6" >
+            <v-col class=""  cols="12" md="6" lg="6" xl="6" >
               <div class="div">
                 <p class="font-weight-light text-xl-h5 text-lg-h5 text-md-h6 text-sm-h6">Why would you select us over all the other digital marketing firms in town?  Is it just due to the diverse services we provide, or is there more to us?<br><br>There is, indeed, more to us. The result of your digital marketing plan, how it appears to the consumers' eyes, and the outcomes it produces, are evidence of our experience and competence in the field. Plus, how we go about the entire approach is a wholesome exhibition of our service.</p><br>
               </div>
