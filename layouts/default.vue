@@ -1,10 +1,12 @@
 <template>
   <div>
-    <Header @open="openMenu" @close="closeMenu" />
+    <Header @open="openMenu" @close="closeMenu"/>
     <div class="full" ref="full">
       <Nuxt />
     </div>
-    <Footer />
+    <div class="change-background" :class="$route.path.replace(/\\|\//g,'')" ref="footer">
+      <Footer />
+    </div>
   </div>
 </template>
 <script>
@@ -15,16 +17,30 @@ export default {
     },
     closeMenu() {
       this.$refs.full.style.transform = "none"
-    }
+    },
   }
 }
 </script>
 <style>
+.change-background p{
+  color: #fff;
+}
+.change-background{
+  background-color: #64B5F6;
+}
+.offers {
+  background-color: #f06292  !important;
+}
+.contact {
+  background-color: #009688 !important;
+}
+.Web-Dev {
+  background-color: #3949ab !important;
+}
+.services {
+  background-color:#5e35b1  !important;
+}
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
   font-family: sans-serif;
 }
 .full {
@@ -42,4 +58,18 @@ p{
 p:last-of-type{
   margin-bottom: 0px;
 }
+.change-background {
+    padding: 70px 0px;
+}
+.footerIMG{
+  margin: 14px auto 0px;
+}
+.text-center{
+  text-align: center;
+}
+#socialmediaicons{
+  width: 70%;
+  margin: auto;
+}
+
 </style>

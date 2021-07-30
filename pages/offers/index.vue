@@ -1,7 +1,7 @@
 <template>
     <v-app>
         <v-main style="margin-top:50px;">
-            <div id="hero-offer-section" class="pb-10 pt-16 pink lighten-4">
+            <div id="hero-offer-section" class="pb-10 pt-16 pink lighten-2">
                 <v-container>
                     <v-row>
                         <v-col cols="12"  lg="6">
@@ -22,7 +22,7 @@
                     </v-row>
                 </v-container>
             </div>
-            <svg id="peak-center-soft" style="fill:#ffffff; height:100px;width:100%;background: #F8BBD0;transform: scaleY(-1.5);" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
+            <svg id="peak-center-soft" style="fill:#ffffff; height:100px;width:100%;background: #F06292;transform: scaleY(-1.5);" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
             <div id="firstoffers-Section" class="pt-12">
                 <v-container>
                     <v-row>

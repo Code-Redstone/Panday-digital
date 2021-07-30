@@ -33,7 +33,7 @@
                                 <ul id="menu">
                                     <nuxt-link to="/"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">HOME</h1></nuxt-link>
                                     <nuxt-link to="offers"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">OFFERS</h1></nuxt-link>
-                                    <nuxt-link to="services"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES  </h1></nuxt-link>
+                                    <nuxt-link to="services"><h1  class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES  </h1></nuxt-link>
                                     <!--<nuxt-link to="article"> <h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ARTICLE</h1></nuxt-link>-->
                                     <nuxt-link to="contact"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">CONTACT US</h1></nuxt-link>
                                     <nuxt-link to="Web-Dev"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">WEB DEV</h1></nuxt-link>
@@ -52,9 +52,9 @@
                         <nav class="float Ddn Mauto0AutoAuto">
                             <nuxt-link to="/"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h3 text-md-h6 text-sm-h2">HOME</h1></nuxt-link>
                             <nuxt-link to="offers"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">OFFERS</h1></nuxt-link>
-                            <nuxt-link to="services"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES  </h1></nuxt-link>
+                            <nuxt-link to="services"><h1  class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES  </h1></nuxt-link>
                             <!--<nuxt-link to="article"> <h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ARTICLE</h1></nuxt-link>-->
-                            <nuxt-link to="contact"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">CONTACT US</h1></nuxt-link>
+                            <nuxt-link to="contact"><h1  class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">CONTACT US</h1></nuxt-link>
                             <nuxt-link to="Web-Dev"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">WEB DEV</h1></nuxt-link>
                         </nav>
                     </v-col>
@@ -102,7 +102,7 @@ export default {
         padding: 10px 10px 10px 10px !important;
         width: 100% !important;
     }
-    .px400-adjust{
+    #px400-adjust{
         padding: 10px !important;
     }
 
@@ -284,5 +284,8 @@ header {
 }
 ul#menu a {
     margin-bottom: 25px;
+}
+div#third-section .container .row div:last-child {
+    margin: auto;
 }
 </style>

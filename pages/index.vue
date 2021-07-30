@@ -169,10 +169,10 @@
                 :key="faq.id"
               >
                 <v-expansion-panel-header>
-                  <h3 class="font-weight-regular text-xl-h4 text-lg-h5 text-md-h6 text-sm-h6">{{faq.question}}</h3>
+                  <h3 class="blue--text font-weight-regular text-xl-h4 text-lg-h5 text-md-h6 text-sm-h6">{{faq.question}}</h3>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  <p class="text-xl-h5 text-lg-h6 text-md-h6 text-sm-h6 font-weight-light">{{faq.answer}}</p>
+                  <p class=" text-xl-h5 text-lg-h6 text-md-h6 text-sm-h6 font-weight-light">{{faq.answer}}</p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
             </v-expansion-panels>
