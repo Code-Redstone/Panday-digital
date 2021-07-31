@@ -97,7 +97,7 @@
                 <v-btn id="Regestrationbutton" color="blue"
                 class="px-15 py-10 Responsivebutton"
                 elevation="1"
-                ><span class=" white--text font-weight-light text-justify text-xl-h6 text-lg-h6 text-md-subtitle-2 text-sm-h5">LET THE EXPERTS ASSIST YOU</span>
+                ><span class="white--text font-weight-light text-justify text-xl-h6 text-lg-h6 text-md-subtitle-2 text-sm-h5">LET THE EXPERTS ASSIST YOU</span>
                 </v-btn>             
             </v-col>
         </v-row>

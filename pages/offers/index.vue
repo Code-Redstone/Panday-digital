@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <v-main style="margin-top:50px;">
+        <v-main style="margin-top:150px;">
             <div id="hero-offer-section" class="pb-10 pt-16 pink lighten-2">
                 <v-container>
                     <v-row>

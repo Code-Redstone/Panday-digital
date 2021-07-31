@@ -1,6 +1,6 @@
 <template>
   <v-app > 
-    <v-main style="margin-top:50px;" class="">
+    <v-main style="margin-top:130px;" class="">
       <div id="hero-homepage" class="blue lighten-2 pt-16">
         <v-container>
           <v-row>
@@ -267,9 +267,6 @@ export default {
 }
 .Services-hover:hover{
   box-shadow: 0px 3px 40px 1px rgb(62 87 100 / 29%);
-}
-.Services-Font h1{
-  font-size: 47px !important;
 }
 .Services-Font h1{
   font-size: 47px !important;

@@ -17,9 +17,10 @@ export default {
     },
     closeMenu() {
       this.$refs.full.style.transform = "none"
-    },
+    }
   }
 }
+
 </script>
 <style>
 .change-background p{

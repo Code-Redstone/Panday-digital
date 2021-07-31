@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <main style="margin-top: 100px;">
+        <main style="margin-top: 150px;">
             <v-sheet color="deep-purple darken-1">
                 <v-container>
                     <v-row>

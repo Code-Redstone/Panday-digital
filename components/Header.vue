@@ -1,11 +1,11 @@
 <template>
-  <header>
+  <header ref="header" class="center"> 
 	  <div class="container d-flex">
 		<div class="mainmenu">
             <div class="Mdn">
                 <v-row>
                     <v-col cols="6">
-                        <img :src="require(`~/assets/resources/Panday-digital-mobile.jpg`)" alt="" width="110px" style="width: 110px;" >
+                       <img @click="$router.push('/')" :src="require(`~/assets/resources/Panday-digital-mobile.jpg`)" alt="" width="60px" style="width: 60px;" >
                     </v-col>
                     <v-col cols="6 d-flex">
                         <nav class="float Mauto0AutoAuto">
@@ -45,8 +45,8 @@
             </div>
             <div class="Ddn">
                 <v-row>
-                    <v-col cols="3">
-                        <img :src="require(`~/assets/resources/Panday-digital-long2.png`)" alt="" width="70%">
+                    <v-col cols="3 center">
+                        <img  @click="$router.push('/')" :src="require(`~/assets/resources/Panday-digital-long2.png`)" alt="" width="90%">
                     </v-col>
                     <v-col cols="9" class="d-flex">
                         <nav class="float Ddn Mauto0AutoAuto">
@@ -78,12 +78,44 @@ export default {
                 this.$emit('open')
             else
                 this.$emit('close')
+        },
+        handleScroll (event) {
+            let bottomOfWindow = document.documentElement.scrollTop >= 100
+
+            if (bottomOfWindow) {
+                this.$refs.header.style="height: 100px;width: 100%;background-color: white;font-size: 14px;"
+            }
+            else {
+                this.$refs.header.style="height: 150px;width: 100%;background-color: white;font-size: 16px;"
+            }
+            
         }
-    }
+    },
+    mounted () {
+        window.addEventListener('scroll', this.handleScroll);
+    },
+    destroyed () {
+        window.removeEventListener('scroll', this.handleScroll);
+    },
+
 }
+
+
 </script>
 
 <style lang="scss">
+header{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    font-size: 16px;
+}
+header.center {
+    box-shadow: 11px 10px 42px #6363632b;
+}
+header{
+    transition: .5s
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
   $color-pack: false;
@@ -173,12 +205,8 @@ nav a {
 	float: right !important;
 }
 header { 
-    width: 100%;
-    height: 100px;
-    display: flex;
     z-index: 9;
     position: fixed;
-    background-color: white;
 }
 .title {
     font-weight: 900;
@@ -207,9 +235,9 @@ header {
 }
 #menuToggle span {
     display: block;
-    width: 50px;
-    height: 8px;
-    margin-bottom: 5px;
+    width: 35px;
+    height: 5px;
+    margin-bottom: 3px;
     position: relative;
     background: #000000;
     border-radius: 3px;
@@ -287,5 +315,13 @@ ul#menu a {
 }
 div#third-section .container .row div:last-child {
     margin: auto;
+}
+nav.float.Ddn.Mauto0AutoAuto a:hover {
+    background: #dedede;
+    transition: .2s;
+    border-radius: 15px;
+}
+nav.float.Ddn.Mauto0AutoAuto a {
+    padding: 9px 13px;
 }
 </style>
