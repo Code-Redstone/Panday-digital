@@ -1,6 +1,6 @@
 <template>
   <v-app>
-      <v-main class="pt-100 testing">
+      <v-main class="MTM-150px testing">
         <div id="hero-section" class="indigo darken-1">
             <v-container class="d-flex 5" >
                 <v-row>

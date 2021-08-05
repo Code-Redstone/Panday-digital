@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <v-main style="margin-top:150px;">
+        <v-main class="MTM-150px">
             <div id="hero-offer-section" class="pb-10 pt-16 pink lighten-2">
                 <v-container>
                     <v-row>
@@ -208,9 +208,9 @@ export default {
         pricing:[
             {
             id:1,
-            titlecolor:'#5edeb7',
+            titlecolor:'#E53935',
             title:'WordPress Website',
-            bodycolor:'#5aceab',
+            bodycolor:'#EF5350',
             basicprice:'24,000',
             proprice:'95,000',
             save:'12',
@@ -218,9 +218,9 @@ export default {
             },
             {
             id:2,
-            titlecolor:'#71b5f9',
+            titlecolor:'#D81B60',
             title:'Live chat & Chat Bot implementation (per month)',
-            bodycolor:'#57a9f9',
+            bodycolor:'#EC407A',
             basicprice:'1,500',
             proprice:'2,500',
             save:'12',
@@ -228,9 +228,9 @@ export default {
             },
             {
             id:3,
-            titlecolor:'rgb(200, 119, 244)',
+            titlecolor:'#8E24AA',
             title:'Landing Page',
-            bodycolor:'#bd73f6',
+            bodycolor:'#AB47BC',
             basicprice:'5,000',
             proprice:'8,500',
             save:'12',
@@ -238,9 +238,9 @@ export default {
             },    
             {
             id:4,
-            titlecolor:'#f771f9',
+            titlecolor:'#5E35B1',
             title:'Heatmap Implementation/ Visitor recordings (per month)',
-            bodycolor:'#f957e5',
+            bodycolor:'#7E57C2',
             basicprice:'2,300',
             proprice:'5,400',
             save:'12',
@@ -248,9 +248,9 @@ export default {
             }, 
             {
             id:5,
-            titlecolor:'#8cfc78',
+            titlecolor:'#3949AB',
             title:'Email List Management',
-            bodycolor:'#86f957',
+            bodycolor:'#5C6BC0',
             basicprice:'6,200',
             proprice:'10,800',
             save:'12',
@@ -258,9 +258,9 @@ export default {
             }, 
             {
             id:6,
-            titlecolor:'#f97171',
+            titlecolor:'#1E88E5',
             title:'Custom Payment Gateway Implementation',
-            bodycolor:'#f95757',
+            bodycolor:'#42A5F5',
             basicprice:'15,400',
             proprice:'3,070',
             save:'12',
@@ -268,9 +268,9 @@ export default {
             },
             {
             id:7,
-            titlecolor:'#57d4f9',
+            titlecolor:'#039BE5',
             title:'Domainname +Setup (1yr)',
-            bodycolor:'#57ccf9',
+            bodycolor:'#29B6F6',
             basicprice:'2,300',
             proprice:'2,300',
             save:'12',
@@ -278,9 +278,9 @@ export default {
             },
             {
             id:8,
-            titlecolor:'#7057f9',
+            titlecolor:'#00ACC1',
             title:'Domainname (.com) yearly',
-            bodycolor:'#7f57f9',
+            bodycolor:'#26C6DA',
             basicprice:'750',
             proprice:'750',
             save:'12',
@@ -288,21 +288,21 @@ export default {
             }, 
             {
             id:9,
-            titlecolor:'#cea55a',
+            titlecolor:'#00897B',
             title:'Backup restore website (per time)',
-            bodycolor:'rgb(249 199 87) ',
+            bodycolor:'#26A69A',
             basicprice:'1,500',
             proprice:'2,300',
             save:'12',
             description:'Ideal for ecommerce companies with the goal to reach  audiences.',
-            },                                                                                   
+            },                                                                                     
         ],
          CMSpricing:[
             {
             id:1,
-            titlecolor:'#5edeb7',
+            titlecolor:'#43A047',
             title:'SEO Maintenance',
-            bodycolor:'#5aceab',
+            bodycolor:'#66BB6A',
             basicprice:'24,000',
             proprice:'95,000',
             save:'12',
@@ -310,9 +310,9 @@ export default {
             },
             {
             id:2,
-            titlecolor:'#71b5f9',
+            titlecolor:'#7CB342',
             title:'SEO Maintenance',
-            bodycolor:'#57a9f9',
+            bodycolor:'#9CCC65',
             basicprice:'1,500',
             proprice:'2,500',
             save:'12',
@@ -320,9 +320,9 @@ export default {
             },
             {
             id:3,
-            titlecolor:'rgb(200, 119, 244)',
+            titlecolor:'#FB8C00',
             title:'WordPress ',
-            bodycolor:'#bd73f6',
+            bodycolor:'#FFA726',
             basicprice:'5,000',
             proprice:'8,500',
             save:'12',
@@ -330,9 +330,9 @@ export default {
             },  
             {
             id:4,
-            titlecolor:'#cea55a',
+            titlecolor:'#757575',
             title:'Website Speed Optimization ',
-            bodycolor:'rgb(249 199 87)',
+            bodycolor:'#BDBDBD',
             basicprice:'5,000',
             proprice:'8,500',
             save:'12',

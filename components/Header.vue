@@ -1,48 +1,56 @@
 <template>
-  <header ref="header" class="center"> 
+  <header ref="header" class="center" id="header"> 
 	  <div class="container d-flex">
 		<div class="mainmenu">
             <div class="Mdn">
                 <v-row>
-                    <v-col cols="6">
-                       <img @click="$router.push('/')" :src="require(`~/assets/resources/Panday-digital-mobile.jpg`)" alt="" width="60px" style="width: 60px;" >
+                    <v-col cols="9">
+                       <img @click="$router.push('/')" :src="require(`~/assets/resources/Panday-digital-long2.png`)" alt="" width="100%" style="width: 55%;" >
                     </v-col>
-                    <v-col cols="6 d-flex">
+                    <v-col cols="3 d-flex">
                         <nav class="float Mauto0AutoAuto">
                             <div id="menuToggle" class="Mauto0AutoAuto">
                                 <!--
                                 A fake / hidden checkbox is used as click reciever,
                                 so you can use the :checked selector on it.
                                 -->
-                                <input type="checkbox" @click="burgerClick" />
+                                <input type="checkbox" @click="burgerClick" v-model="inputBurger"/>
                                 
                                 <!--
                                 Some spans to act as a hamburger.
                                 
                                 They are acting like a real hamburger,
                                 not that McDonalds stuff.
-                                -->
+                                --> 
                                 <span></span>
-                                <span></span>
+                                <span></span>                             
                                 <span></span>
                                 
                                 <!--
                                 Too bad the menu has to be inside of the button
                                 but hey, it's pure CSS magic.
                                 -->
-                                <ul id="menu">
-                                    <nuxt-link to="/"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">HOME</h1></nuxt-link>
-                                    <nuxt-link to="offers"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">OFFERS</h1></nuxt-link>
-                                    <nuxt-link to="services"><h1  class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES  </h1></nuxt-link>
+                                <ul id="menu">                                 
+                                    <nuxt-link to="/"><h1 @click="onMenuClick" class="font-weight-regular black--text text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">HOME</h1></nuxt-link>
+                                    <nuxt-link to="offers"><h1 @click="onMenuClick" class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">OFFERS</h1></nuxt-link>
                                     <!--<nuxt-link to="article"> <h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ARTICLE</h1></nuxt-link>-->
-                                    <nuxt-link to="contact"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">CONTACT US</h1></nuxt-link>
-                                    <nuxt-link to="Web-Dev"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">WEB DEV</h1></nuxt-link>
+                                    <v-expansion-panels class="elevation-0 customcss">
+                                        <v-expansion-panel class="elevation-0">
+                                            <v-expansion-panel-header class="elevation-0" >
+                                                    <nuxt-link  class="text-left" to="services"><h1 @click="onMenuClick" class=" font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES</h1></nuxt-link>  
+                                            </v-expansion-panel-header>
+                                            <v-expansion-panel-content>
+                                                    <nuxt-link to="Web-Dev"><h1 @click="onMenuClick" class="font-weight-regular black--text text-xl-h2 text-lg-h2">WEB DEV</h1></nuxt-link>
+                                            </v-expansion-panel-content>
+                                        </v-expansion-panel>
+                                    </v-expansion-panels>               
+                                    <nuxt-link to="contact"><h1 @click="onMenuClick" class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">CONTACT US</h1></nuxt-link>
                                 </ul>
                             </div>
                         </nav> 
                     </v-col>
                 </v-row>
-            </div>
+            </div> 
             <div class="Ddn">
                 <v-row>
                     <v-col cols="3 center">
@@ -52,10 +60,16 @@
                         <nav class="float Ddn Mauto0AutoAuto">
                             <nuxt-link to="/"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h3 text-md-h6 text-sm-h2">HOME</h1></nuxt-link>
                             <nuxt-link to="offers"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">OFFERS</h1></nuxt-link>
-                            <nuxt-link to="services"><h1  class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES  </h1></nuxt-link>
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <nuxt-link to="services"><h1 class=" font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES</h1></nuxt-link>
+                                </button>
+                                <div class="dropdown-content">
+                                    <nuxt-link to="Web-Dev"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h2">WEB DEV</h1></nuxt-link>
+                                </div>
+                            </div>
                             <!--<nuxt-link to="article"> <h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ARTICLE</h1></nuxt-link>-->
                             <nuxt-link to="contact"><h1  class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">CONTACT US</h1></nuxt-link>
-                            <nuxt-link to="Web-Dev"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">WEB DEV</h1></nuxt-link>
                         </nav>
                     </v-col>
                 </v-row>
@@ -70,6 +84,7 @@ export default {
     data() {
         return {
             mobilemenu:true,
+            inputBurger:false,
         }
     },
     methods: {
@@ -89,7 +104,11 @@ export default {
                 this.$refs.header.style="height: 150px;width: 100%;background-color: white;font-size: 16px;"
             }
             
-        }
+        },
+        onMenuClick (as) {
+            this.inputBurger=!this.inputBurger
+            this.burgerClick(as)
+        } 
     },
     mounted () {
         window.addEventListener('scroll', this.handleScroll);
@@ -99,11 +118,61 @@ export default {
     },
 
 }
-
-
 </script>
 
 <style lang="scss">
+.v-expansion-panel.elevation-0::before {
+    box-shadow: unset !important;
+}
+.customcss::after{
+    border: unset !important;
+}
+.customcss a {
+    margin: 0px !important;
+}
+
+.customcss {
+    width: 40%;
+}
+.customcss button {
+    padding: 0px !important;
+    text-align: left;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-radius:10px 10px ;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;  
+  border-radius:10px 10px ;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
 header{
     height: 150px;
     width: 100%;
@@ -121,12 +190,23 @@ header{
   $color-pack: false;
 
   @import '~vuetify/src/styles/main.sass';
+    @media screen and (max-width:1264px) {
+        header#header {
+            height: 100px !important;
+        }
+        .MTM-150px{
+            margin-top: 100px !important;
+        }
+    }
     @media screen and (max-width:700px) {
         #offersheroimage{
             width: 100% !important;
         }
         .Dn700{
             display: none !important;
+        }
+        header#header {
+            height: 100px !important;
         }
     }
   @media screen and (max-width:400px) {
@@ -160,6 +240,9 @@ header{
     @media screen and (min-width:1265px) {
     .Mdn{
         display: none !important;
+    }
+    .MTM-150px{
+        margin-top: 150px;
     }
   }
 
@@ -311,7 +394,13 @@ header {
     width: 100% !important;
 }
 ul#menu a {
-    margin-bottom: 25px;
+    margin-left: 0px !important;
+    margin-top: 10px;
+}
+ul#menu a:last-child {
+    margin-left: 0px !important;
+    margin-bottom: 9px !important;
+    margin-top: -3px !important;
 }
 div#third-section .container .row div:last-child {
     margin: auto;

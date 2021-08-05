@@ -7,7 +7,7 @@
                 <h2  class="white--text text-h3 font-weight-bold py-5"> Our Digital Marketing Services</h2>
                 </div>
             </v-col>            
-            <v-col class="text-center" cols="4" sm="12" md="6" lg="3" xl="3" v-for="digital in digital_services " :key="digital.id" >
+            <v-col class="text-center" cols="12" sm="6" lg="3" v-for="digital in digital_services " :key="digital.id" >
                 <v-card
                 class="pa-11 Digital-Services Services-Font rounded-xl"
                 outlined

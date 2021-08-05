@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main style="">
+    <v-main class="MTM-150px">
         <v-sheet class="radius pb-15 mb-15" color="teal" height="100%" width="100%" style="padding-top: 150px;">
             <v-container>
                 <v-row>

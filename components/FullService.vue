@@ -3,10 +3,10 @@
         <v-row>
             <v-col cols="12">
                 <div class=" text-center Services-Font">
-                <h1 class="white--text font-weight-bold text-xl-h1 text-lg-h2 text-md-h3 text-sm-h4 py-8">FULL-SERVICE DIGITAL MARKETING FIRM</h1>
+                <h1 class="white--text font-weight-bold text-xl-h2 text-lg-h2 text-md-h3 text-sm-h4 py-8">FULL-SERVICE DIGITAL MARKETING FIRM</h1>
                 </div>
             </v-col>
-            <v-col cols="12" lg="4" v-for="service in services" :key="service.id" >
+            <v-col cols="12" sm="6" lg="4" class="ma-auto" v-for="service in services" :key="service.id" >
                 <v-card
                 class="pa-10 Services-hover Services-Font"
                 outlined

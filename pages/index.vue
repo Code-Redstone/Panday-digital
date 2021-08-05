@@ -1,6 +1,6 @@
 <template>
   <v-app > 
-    <v-main style="margin-top:130px;" class="">
+    <v-main class="MTM-150px">
       <div id="hero-homepage" class="blue lighten-2 pt-16">
         <v-container>
           <v-row>
@@ -32,10 +32,10 @@
       <div id="firstSection-homepage" class="">
         <v-container>
           <v-row>
-            <v-col cols="12" lg="6" >
+            <v-col cols="12" md="6" lg="6" >
               <RegestrationForm/>
             </v-col>
-            <v-col cols="12" lg="6"  >
+            <v-col cols="12" md="6" lg="6"  >
               <div class="d-block ">
                 <h3 class="blue--text lighten-2 font-weight-regular text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 pt-5">WORLD-CLASS DIGITAL BUILDER</h3>
                 <h1 class="blue--text lighten-2 font-weight-bold text-xl-h2 text-lg-h3 text-md-h3 text-sm-h2 py-8">PANDAY DIGITAL Driving Outstanding Digital Specifications</h1>
@@ -269,7 +269,7 @@ export default {
   box-shadow: 0px 3px 40px 1px rgb(62 87 100 / 29%);
 }
 .Services-Font h1{
-  font-size: 47px !important;
+  font-size: 8vw !important;
 }
 .Services-Font h3{
   font-size: 23px !important;

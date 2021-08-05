@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <main style="margin-top: 150px;">
+        <main class="MTM-150px">
             <v-sheet color="deep-purple darken-1">
                 <v-container>
                     <v-row>
@@ -25,7 +25,7 @@
                 </v-container>
             </v-sheet>
         </main>
-        <svg id="arched" style="background:#5E35B1; fill:#fff;transform: scale(-1.5); height:52px; scale:;" preserveAspectRatio="none" viewBox="0 0 1442 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="" d="M1442,14.287108 L682.266,129.122 C621.756612,138.267588 517.026832,143.977138 423.629338,144 L422.504016,144 C396.685569,143.99367 371.751899,143.551232 348.88,142.625 L0,128.495459 L0,0 L1442,0 L1442,14.287108 Z" id="Combined-Shape"></path> </svg>
+        <svg id="arched" style="background:#5E35B1; fill:#fff;transform: scale(-1); height:52px; scale:;" preserveAspectRatio="none" viewBox="0 0 1442 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="" d="M1442,14.287108 L682.266,129.122 C621.756612,138.267588 517.026832,143.977138 423.629338,144 L422.504016,144 C396.685569,143.99367 371.751899,143.551232 348.88,142.625 L0,128.495459 L0,0 L1442,0 L1442,14.287108 Z" id="Combined-Shape"></path> </svg>
         <main>
             <v-sheet class="" height="100%" width="100%">
                 <BeOnTop/>
