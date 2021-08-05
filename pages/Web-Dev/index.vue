@@ -165,7 +165,13 @@
 
 <script>
 export default {
-
+  head: {
+    titleTemplate: 'Panday Digital - %s',
+    title: 'Web Development',
+    htmlAttrs: {
+      lang: 'en'
+    },
+  },
 }
 </script>
 

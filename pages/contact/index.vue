@@ -38,7 +38,13 @@
 
 <script>
 export default {
-
+    head: {
+        titleTemplate: 'Panday Digital - %s',
+        title: 'Contact',
+        htmlAttrs: {
+        lang: 'en'
+        },
+    },
 }
 </script>
 

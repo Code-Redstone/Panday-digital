@@ -6,18 +6,17 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - panday',
-    title: 'panday',
+    titleTemplate: 'Panday Digital - %s',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: `The only digital web presence builder agency in the Philippines that can match the digital brilliance your audience expects from you with globally tested digital creativity. Don't settle for anything less than the unexpected when it comes to your brand.` }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/pd.ico' }
     ]
   },
 

@@ -18,7 +18,7 @@
               <div class="d-block ">
                 <h3 class="white--text font-weight-regular text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4">WORLD-CLASS DIGITAL BUILDER</h3>
                 <h1 class="white--text font-weight-bold py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">PANDAY DIGITAL Setting Outstanding Digital Standards</h1>
-                <p class="white--text font-weight-light text-xl-h5 text-lg-h6 text-md-subtitle-1 text-sm-h5">The leading digital marketing agency in the Philippines can only match the digital brilliance your audience expects from you with globally tested digital creativity. Don't settle for anything less than the unexpected when it comes to your brand.</p><br>
+                <p class="white--text font-weight-light text-xl-h5 text-lg-h6 text-md-subtitle-1 text-sm-h5">The only digital web presence builder agency in the Philippines that can match the digital brilliance your audience expects from you with globally tested digital creativity. Don't settle for anything less than the unexpected when it comes to your brand.</p><br>
                 <v-btn class="M-textCenter blue--text lighten-2 Rounded-botton px-10 py-8 text-lg-h6 text-md-subtitle-1 text-sm-h5"
                   elevation="1"
                 ><nuxt-link to="contact">Get a Quote</nuxt-link>
@@ -184,6 +184,13 @@
 </template>
 <script >
 export default {
+  head: {
+    titleTemplate: 'Panday Digital - %s',
+    title: 'Home',
+    htmlAttrs: {
+      lang: 'en'
+    },
+  },
     layout: 'dashboard',
     auth: false,
     methods: {

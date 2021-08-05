@@ -71,6 +71,13 @@
 
 <script>
 export default {
+  head: {
+    titleTemplate: 'Panday Digital - %s',
+    title: 'Services',
+    htmlAttrs: {
+      lang: 'en'
+    },
+  },
     layout: 'dashboard',
     auth: false,
     methods: {
