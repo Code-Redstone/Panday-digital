@@ -24,10 +24,9 @@
                     </v-col>
                 </v-row>
             </v-container>
-            <div class="w-100">
-                <svg id="peak-center-soft" class="w-100 Ddn" style="fill:#ffffff; height:100px;" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
-            </div>
         </div>
+        <svg id="peak-center-soft" class="w-100 Ddn" style="background:#3949ab;fill:#ffffff; height:100px;" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
+        <svg id="peak-center-soft" style="position: relative;z-index: 1;background: #ffffff;fill:#ffffff; height:20px;width:100%;bottom:10px;" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
         <div id="First-section" class="">
             <v-container class="d-flex">
                 <v-row>
@@ -41,7 +40,7 @@
                             <p class=" font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">Our web development company in the Philippines maintains transparency at all steps. We allow you to ask about our previous work and visit the websites designed by us for checking the design responsiveness and its effectiveness.</p>                 
                         </div>
                     </v-col>
-                    <v-col cols="12" lg="6">
+                    <v-col cols="12" lg="6" id="webdevregestration">
                         <RegestrationForm/>
                     </v-col>
                 </v-row>
@@ -176,6 +175,9 @@ export default {
 </script>
 
 <style>
+#webdevregestration .Web-Dev {
+    background: #fff !important;
+}
 @media screen and (min-width:1265px) {
     #Second-section {
         height: 550px;

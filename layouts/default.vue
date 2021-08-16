@@ -30,7 +30,7 @@ export default {
   background-color: #64B5F6;
 }
 .offers {
-  background-color: #f06292  !important;
+  background-color: #00BCD4  !important;
 }
 .contact {
   background-color: #009688 !important;

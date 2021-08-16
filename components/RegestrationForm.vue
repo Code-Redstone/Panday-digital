@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+    <v-container class="regestrationForm" :class="$route.path.replace(/\\|\//g,'')">
         <v-row>
             <v-col cols="12" class="custom-height">
                 <h3 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4 pt-5">Digital Marketing Proposal</h3>
@@ -111,5 +111,12 @@ export default {
 </script>
 
 <style>
-
+.regestrationForm.offers,
+.regestrationForm.offers input,
+.regestrationForm.offers fieldset,
+.regestrationForm.offers label,
+.regestrationForm.offers i,
+.regestrationForm.offers li::before{
+    color: white !important;
+}
 </style>

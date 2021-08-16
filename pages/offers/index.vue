@@ -1,7 +1,7 @@
 <template>
     <v-app>
         <v-main class="MTM-150px">
-            <div id="hero-offer-section" class="pb-10 pt-16 pink lighten-2">
+            <div id="hero-offer-section" class=" pt-16 cyan">
                 <v-container>
                     <v-row>
                         <v-col cols="12"  lg="6">
@@ -16,13 +16,14 @@
                                 />
                             </div>
                         </v-col>
-                        <v-col class=" center"  cols="12"  lg="6" color="white">
+                        <v-col class=" center "  cols="12"  lg="6" color="white">
                             <RegestrationForm/>
                         </v-col>
                     </v-row>
                 </v-container>
             </div>
-            <svg id="peak-center-soft" style="fill:#ffffff; height:100px;width:100%;background: #F06292;transform: scaleY(-1.5);" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
+            <svg id="peak-center-soft" style="fill:#ffffff;transform:rotateX(180deg);height:100px;width:100%;background: #00BCD4;transform: scaleY(-1.5);" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
+            <svg id="peak-center-soft" style="position: relative;z-index: 1;background: #ffffff;fill:#ffffff; height:20px;width:100%;" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
             <div id="firstoffers-Section" class="pt-12">
                 <v-container>
                     <v-row>
@@ -72,7 +73,7 @@
                                         <v-btn
                                             color="#ffffff52"
                                             class="text-center title font-weight-light white--text px-10 py-8 rounded-lg "
-                                            x-large
+                                            x-large 
                                         >
                                             Buy Pro
                                         </v-btn>                                    
@@ -83,8 +84,8 @@
                     </v-row>
                 </v-container>  
             </div>    
-            <svg id="" style="fill:#fff; height:100px;background:#F06292;position:relative;top:7px;" class="w-100 positionR-bottom3 flip Dn700" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <polygon class=" pink lighten-2" points="0 0 1442 0 0 100"></polygon> </svg>
-            <div id="second-section" class="pink lighten-2">
+            <svg id="" style="fill:#fff;width:100%;height:100px;background:#00bcd4;position:relative;top:7px;" class=" positionR-bottom3 flip Dn700" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <polygon class=" pink lighten-2" points="0 0 3000 0 0 100"></polygon> </svg>
+            <div id="second-section" class="cyan">
                     <v-container class="d-flex ">
                         <v-row>
                             <v-col cols="12 d-flex" lg="6"  > 
@@ -107,7 +108,7 @@
                         </v-row>
                     </v-container>
             </div>
-            <svg id="skewed" style="fill:#F06292; height:100px;background:#fff;" class="w-100 positionR-bottom3 flip Dn700 " preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <polygon  points="0 0 1442 0 0 100"></polygon> </svg>
+            <svg id="skewed" style="fill:#00BCD4;width:100%;height:100px;background:#fff;" class="positionR-bottom3 flip Dn700 " preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <polygon  points="0 0 3000 0 0 100"></polygon> </svg>
             <div id="third-section" class="">
                 <v-container>  
                     <v-row>

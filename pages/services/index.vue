@@ -4,15 +4,13 @@
             <v-sheet color="deep-purple darken-1">
                 <v-container>
                     <v-row>
-                        <v-col class=" center"  cols="12" sm="12" md="6" lg="6" xl="6" color="white">
-                            <div class="first-image text-center">
-                                <v-img
-                                class=""
-                                max-width="60%"
-                                max-height="60%"
-                                :src="require(`~/assets/resources/illustration.png`)"
-                                />
-                            </div>                    
+                        <v-col class=""  cols="12" sm="12" md="6" lg="6" xl="6" color="white">
+                            <v-img
+                            class="ma-auto"
+                            max-width="600px"
+                            max-height="600px"
+                            :src="require(`~/assets/resources/SEO-Audit.png`)"
+                            />
                         </v-col>
                         <v-col cols="12" sm="12" md="6" lg="6" xl="6" class="d-flex">
                             <div class="d-block ">

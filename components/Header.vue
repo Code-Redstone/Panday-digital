@@ -40,7 +40,8 @@
                                                     <nuxt-link  class="text-left" to="services"><h1 @click="onMenuClick" class=" font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES</h1></nuxt-link>  
                                             </v-expansion-panel-header>
                                             <v-expansion-panel-content>
-                                                    <nuxt-link to="Web-Dev"><h1 @click="onMenuClick" class="font-weight-regular black--text text-xl-h2 text-lg-h2">WEB DEV</h1></nuxt-link>
+                                                    <nuxt-link to="Web-Dev"><h1 @click="onMenuClick" class="font-weight-regular black--text text-xl-h2 text-lg-h2">WEB DEV</h1></nuxt-link><br>
+                                                    <nuxt-link to="SEO"><h1 @click="onMenuClick" class="font-weight-regular black--text text-xl-h2 text-lg-h2">SEO</h1></nuxt-link>
                                             </v-expansion-panel-content>
                                         </v-expansion-panel>
                                     </v-expansion-panels>               
@@ -65,7 +66,8 @@
                                     <nuxt-link to="services"><h1 class=" font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES</h1></nuxt-link>
                                 </button>
                                 <div class="dropdown-content">
-                                    <nuxt-link to="Web-Dev"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h2">WEB DEV</h1></nuxt-link>
+                                    <nuxt-link to="Web-Dev"><h1 class=" font-weight-regular black--text text-xl-h2 text-lg-h2">WEB DEV</h1></nuxt-link>
+                                    <nuxt-link to="SEO"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h2">SEO</h1></nuxt-link>
                                 </div>
                             </div>
                             <!--<nuxt-link to="article"> <h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ARTICLE</h1></nuxt-link>-->
@@ -151,19 +153,19 @@ export default {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  border-radius:10px 10px ;
 }
 .dropdown-content {
   display: none;
+  width: 158px;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;  
-  border-radius:10px 10px ;
+  padding: 10px 0;
 }
 
 .dropdown-content a {
+  text-align: center;
   float: none;
   color: black;
   text-decoration: none;
@@ -281,7 +283,6 @@ nav {
 }
 nav a {
 	display: block;
-	margin: 0 15px;
 	color:#000;
 }
 .float-left{
@@ -408,9 +409,8 @@ div#third-section .container .row div:last-child {
 nav.float.Ddn.Mauto0AutoAuto a:hover {
     background: #dedede;
     transition: .2s;
-    border-radius: 15px;
 }
 nav.float.Ddn.Mauto0AutoAuto a {
-    padding: 9px 13px;
+    padding: 9px 24px;
 }
 </style>
