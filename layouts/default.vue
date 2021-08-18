@@ -41,6 +41,9 @@ export default {
 .services {
   background-color:#5e35b1  !important;
 }
+.SEO {
+  background-color:#5C6BC0  !important;
+}
 *{
   font-family: sans-serif;
 }

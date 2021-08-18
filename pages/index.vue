@@ -272,8 +272,9 @@ export default {
 .Digital-Services:hover{
     box-shadow: 0px 3px 60px 3px rgb(255 255 255 / 22%);
 }
-.Services-hover:hover{
-  box-shadow: 0px 3px 40px 1px rgb(62 87 100 / 29%);
+.Services-hover:hover {
+    box-shadow: 0px 3px 40px 1px rgb(62 87 100 / 29%);
+    transition: .5s;
 }
 .Services-Font h1{
   font-size: 8vw !important;

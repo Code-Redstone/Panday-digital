@@ -94,8 +94,8 @@
                 </v-container>
             </v-col>
             <v-col cols="12">
-                <v-btn id="Regestrationbutton" color="blue"
-                class="px-15 py-10 Responsivebutton"
+                <v-btn id="Regestrationbutton" color="blue" 
+                class="px-lg-15 py-lg-10 px-md-15 py-md-10 px-sm-15 py-sm-10 px-0 py-10 Responsivebutton" :class="$route.path.replace(/\\|\//g,'')"
                 elevation="1"
                 ><span class="white--text font-weight-light text-justify text-xl-h6 text-lg-h6 text-md-subtitle-2 text-sm-h5">LET THE EXPERTS ASSIST YOU</span>
                 </v-btn>             
@@ -111,6 +111,27 @@ export default {
 </script>
 
 <style>
+#webdevregestration button.SEO{
+    background-color: #5c6bc0 !important;
+}
+#webdevregestration button.Web-Dev{
+    background-color: #3949ab !important;
+}
+#webdevregestration button.offers{
+    background-color: #00bcd4 !important;
+}
+#webdevregestration button.SEO{
+    background-color: #5c6bc0 !important;
+}
+#webdevregestration button.SEO{
+    background-color: #5c6bc0 !important;
+}
+#webdevregestration button.SEO{
+    background-color: #5c6bc0 !important;
+}
+#webdevregestration button.SEO{
+    background-color: #5c6bc0 !important;
+}
 .regestrationForm.offers,
 .regestrationForm.offers input,
 .regestrationForm.offers fieldset,
