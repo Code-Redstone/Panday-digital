@@ -6,8 +6,8 @@
                 <v-row>
                     <v-col cols="12 d-flex" lg="6"  > 
                         <div class="" id="Hero-Description">
-                            <h3 class="white--text font-weight-bold text-xl-h3 text-lg-h4 text-md-h4 text-sm-h4 text-h5 mb-5 TAC">Best SEO Company in the Philippines</h3>
-                            <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5 TAC">With our exceptional, structured SEO services in the Philippines, you can gain search engine dominance and long-term optimization of digital resources.</p>
+                            <h3 class="white--text font-weight-bold text-xl-h3 text-lg-h4 text-md-h4 text-sm-h4 text-h5 mb-5 TAC">Local SEO Expert In The Philippines</h3>
+                            <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5 TAC">Take control of the local market with a vibrant online presence created with dedication and diligence by a local SEO expert for you.</p>
                              <v-btn class="Rounded-botton px-10 py-8 text-lg-h5 text-md-subtitle-1 text-sm-h5 text-center TAC"
                             elevation="1"
                             ><nuxt-link to="contact">Get a Quote</nuxt-link></v-btn>
@@ -31,9 +31,10 @@
                 <v-row>
                     <v-col cols="12 d-flex" lg="6"> 
                         <div class="test">
-                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">Why Choose SEO Agency in the Philippines</h5>
-                            <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">The digital business world is growing and evolving by the second, but Search Engine Optimization remains the goose that lays the golden eggs – you don't want to kill it at any cost due to a lack of effective strategy and execution.</p>
-                            <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">Digital Marketing Manila is an end-to-end SEO agency in Philippines providing dynamic search engine optimization services, complete with all its necessary dimensions. We take pride in our utter commitment towards customers and their businesses, and our reputation of yielding excellent results precedes our name. Along with other digital solutions like web designing, web development, content marketing, PPC management, social media marketing, and online reputation management, SEO is among the front line services that we extend to make your company’s digital crusade a victorious one.</p>              
+                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5"> Why Choose Local SEO Agency In The Philippines</h5>
+                            <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">Because it is now well established, simply having a business will not suffice. It is nearly impossible to beat the competition and achieve success without a strong online presence. Both buyers and sellers are now using the internet. Whatever business sector your company is in, chances are that more than 40% of the industry's customers look up potential service providers online. Your company will fall behind in this race if it does not have a good local SEO. Digital Marketing Manila is a leading local SEO company in the Philippines, and we ensure that your company receives the exposure and recognition it deserves.</p>
+                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5"> What is Local SEO?</h5>
+                            <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">Local SEO is a set of organic techniques used to optimize your online presence for highly targeted, location-specific business searches. It enables you to connect with the local market and cultivate a loyal customer base closer to home. It entails using the same old methods of traditional search engine optimization processes, but with an emphasis on emphasizing its geographical location in order to attract customers within a certain radius. Traditional SEO tools like link building, on-page optimization, and content management can help you gain traction in a broader, more general sense. However, if you want to dominate your neighbors, you'll need something extra. Our local SEO services in the Philipines</p>              
                         </div>
                     </v-col>
                     <v-col cols="12" lg="6" id="webdevregestration">

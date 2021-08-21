@@ -40,8 +40,9 @@
                                                     <nuxt-link  class="text-left" to="services"><h1 @click="onMenuClick" class=" font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES</h1></nuxt-link>  
                                             </v-expansion-panel-header>
                                             <v-expansion-panel-content>
-                                                    <nuxt-link to="Web-Dev"><h1 @click="onMenuClick" class="font-weight-regular black--text text-xl-h2 text-lg-h2">WEB DEV</h1></nuxt-link><br>
-                                                    <nuxt-link to="SEO"><h1 @click="onMenuClick" class="font-weight-regular black--text text-xl-h2 text-lg-h2">SEO</h1></nuxt-link>
+                                                    <nuxt-link to="Website-development"><h4 @click="onMenuClick" class="font-weight-regular black--text text-xl-h2 text-lg-h2">WEBSITE DEVELOPMENT</h4  ></nuxt-link><br>
+                                                    <nuxt-link to="SEO"><h4 @click="onMenuClick" class="font-weight-regular black--text text-xl-h2 text-lg-h2">SEO</h4></nuxt-link>
+                                                    <nuxt-link to="local-seo"><h4 @click="onMenuClick" class="font-weight-regular black--text text-xl-h2 text-lg-h2">Local SEO</h4></nuxt-link>
                                             </v-expansion-panel-content>
                                         </v-expansion-panel>
                                     </v-expansion-panels>               
@@ -66,8 +67,9 @@
                                     <nuxt-link to="services"><h1 class=" font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES</h1></nuxt-link>
                                 </button>
                                 <div class="dropdown-content">
-                                    <nuxt-link to="Web-Dev"><h1 class=" font-weight-regular black--text text-xl-h2 text-lg-h2">WEB DEV</h1></nuxt-link>
-                                    <nuxt-link to="SEO"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h2">SEO</h1></nuxt-link>
+                                    <nuxt-link to="Website-development"><h4 class=" font-weight-regular black--text text-xl-h2 text-lg-h2">WEBSITE DEVELOPMENT</h4></nuxt-link>
+                                    <nuxt-link to="SEO"><h4 class="font-weight-regular black--text text-xl-h2 text-lg-h2">SEO</h4></nuxt-link>
+                                    <nuxt-link to="local-seo"><h4 @click="onMenuClick" class="font-weight-regular black--text text-xl-h2 text-lg-h2">Local SEO</h4></nuxt-link>
                                 </div>
                             </div>
                             <!--<nuxt-link to="article"> <h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ARTICLE</h1></nuxt-link>-->
@@ -156,7 +158,6 @@ export default {
 }
 .dropdown-content {
   display: none;
-  width: 158px;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 100px;
@@ -237,6 +238,9 @@ header{
     #hero-homepage{
         text-align: center !important;
         padding-top: 50px;
+    }
+    .TAC{
+        text-align: center !important;
     }
   }
     @media screen and (min-width:1265px) {

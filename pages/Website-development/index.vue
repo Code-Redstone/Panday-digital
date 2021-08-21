@@ -175,14 +175,10 @@ export default {
 </script>
 
 <style>
-#webdevregestration .Web-Dev {
+#webdevregestration .Website-development {
     background: #fff !important;
 }
 @media screen and (min-width:1265px) {
-    #Second-section {
-        height: 550px;
-        margin-bottom: 68px;
-    }
     #Fourth-section {
         height: 550px;
         margin-bottom: 68px;
