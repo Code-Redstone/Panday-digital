@@ -43,81 +43,34 @@
                 </v-row>
             </v-container>
         </div>
-        <div id="" class="indigo lighten-1">
-            <svg id="skewed" style="fill:#fff; height:100px;" class="w-100 positionR-bottom3 flip Ddn" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <polygon class="divider-color" points="0 0 1442 0 0 100"></polygon> </svg>
-            <v-container class="d-flex">
+        <v-container class="pb-10">
                 <v-row>
-                    <v-col cols="12 d-flex" lg="6"  > 
-                        <div class="">
-                            <h5 class="white--text font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">What Is SEO?</h5>
-                            <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">In a summary, Search Engine Optimization (SEO) is the foundation upon which the success of your company's online campaign is determined. A strong, effective, and carefully implemented SEO strategy is critical for staying ahead of the competition and consistently turning the needle in your favor.</p>             
-                            <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">SEO is the process of optimizing the content, design, and appearance of your website so that web crawlers on search engines such as Google, Yahoo, and Bing find your websites and blog sites before your competitors. When combined with the right organic tools and techniques, the right SEO practices will propel your company through the highly competitive market crowded with numerous businesses vying for the top few spots and place you right there.</p>         
-                            <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">With more and more people entrusting the internet to find out about global and local businesses, a successful SEO campaign is not just a necessity, it can very much be the ace up your sleeve that wins you the game. At our digital marketing and SEO Company in Manila, we provide all the core aspects of SEO solutions to help our clients take their business a notch higher.</p>         
-                        </div>
-                    </v-col>
-                    <v-col cols="12 center" lg="6">
-                            <v-img
-                            class="ma-auto" 
-                            max-width="700px"
-                            max-height="700px"
-                            :src="require(`~/assets/resources/WhatIsSeo.png`)"
-                            />
-                    </v-col>
-                </v-row>
-            </v-container>
-        </div>
-        <svg id="skewed" style="fill:#5C6BC0; height:100px;background:#fff;" class="w-100 positionR-bottom3 flip Ddn" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <polygon class="divider-color" points="0 0 1442 0 0 100"></polygon> </svg>
-        <svg id="peak-center-soft" style="position: relative;z-index: 1;background: #ffffff;fill:#ffffff; height:20px;width:100%;" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
-        <div id="Third-section" class="">
-            <v-container class="d-flex">
-                <v-row>
-                    <v-col cols="12 d-flex" lg="6"  > 
-                        <div class="">
-                            <h5 class="font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">Does Your Business Really Need SEO?</h5>
-                            <p class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">Many entrepreneurs and business owners make the mistake of taking an SEO agency in the Philippines with a grain of salt, only to come to regret their decision. SEO has managed to age like fine wine in this age of limitless technological advancement at light speed. Since it first became a digital sensation in the early 1990s, the importance of SEO has only grown and expanded at an exponential rate. It is also intricately linked to many other digital solutions that your company requires, such as content curation and management, advertising services, local listings, and web development.</p>          
-                        </div>
-                    </v-col>
-                    <v-col cols="12" lg="6">
-                            <v-img
-                            class="ma-auto"
-                            max-width="550px"
-                            max-height="550px"
-                            :src="require(`~/assets/resources/Questionmark.png`)"
-                            />
-                    </v-col>
-                </v-row>
-            </v-container>
-            <v-container class="pb-10">
-                <v-row>
-                    <v-col cols="12" sm="12" md="6" lg="4" xl="3" class="ma-auto" v-for="Seos in Seo" :key="Seos.id" >
+                    <v-col cols="12" sm="12" md="6" class="ma-auto" v-for="work in works" :key="work.id" >
                         <v-card
                         class="pa-10 Services-hover Services-Font"
                         outlined
                         shaped
                         >
-                            <h3 class="mb-5 lighten-1 indigo--text text-center font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">{{Seos.title}}</h3>
-                            <p class="text-center font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">{{Seos.discription}}</p>
+                            <h3 class="mb-5 lighten-1 indigo--text text-center font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">{{work.title}}</h3>
+                            <p class=" font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">{{work.discription}}</p>
+                            <ul v-for="listing in work.listing" :key="listing.id">
+                                <li class="font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">{{listing.list}}</li>
+                            </ul>
                         </v-card>
                     </v-col>
                 </v-row>
             </v-container>
-        </div>
-        <div id="fourth-section" class="indigo lighten-1">
+        <div id="" class="indigo lighten-1">
             <v-container class="d-flex">
                 <v-row>
-                    <v-col cols="12 d-flex" lg="6"  > 
+                    <v-col cols="12 d-flex"> 
                         <div class="">
-                            <h5 class="white--text font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">What SEO Services Do We Offer?</h5>
-                            <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">When our clients think of the best SEO company in the Philippines, they think of Digital Marketing Manila – and that is because of our dynamic solutions and prompt services. When you reach out to us to make the brand of your business impressive and unbeatable in the growing digital market, all the following tools and technologies that we master it will be at your disposal.</p>       
+                            <h1 class="white--text font-weight-bold text-xl-h3 text-lg-h4 text-md-h4 text-sm-h4 text-h5 mb-5 text-center mt-10">Our Local SEO Services</h1>
+                            <h1 class="mb-5 lighten-1 white--text font-weight-light text-center text-xl-h5 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">What are you signing up for – find out!</h1>
+                            <h1 class="mb-5 lighten-1 white--text font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">Local SEO Audit</h1>                            
+                            <p class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">A Local SEO expert or an SEO consultant from Digital Marketing Manila would go through your entire online persona and analyze every piece of information available on the internet about you or your business to create a meticulously researched audit result. The evaluation process is exhaustive and done with meticulous attention to detail so that you can make an informed decision on how to avoid risks and capitalize on opportunities. Our Local SEO expert team typically conducts the audit over five extensive steps. The steps are as follows:</p>         
+                            <p v-for="step in steps" :key="step.id" class="white--text font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5 py-1"><b class="font-weight-bold">Step {{step.id}}:</b> {{step.discription}}</p>
                         </div>
-                    </v-col>
-                    <v-col cols="12 center" lg="6">
-                            <v-img
-                            class="ma-auto" 
-                            max-width="400px"
-                            max-height="400px"
-                            :src="require(`~/assets/resources/SEOservices.png`)"
-                            />
                     </v-col>
                 </v-row>
             </v-container>
@@ -125,16 +78,16 @@
         <svg id="skewed" style="fill:#5C6BC0; height:100px;background:#fff;" class="w-100 positionR-bottom3 flip Ddn" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <polygon class="divider-color" points="0 0 1442 0 0 100"></polygon> </svg>
         <svg id="peak-center-soft" style="position: relative;z-index: 1;background: #ffffff;fill:#ffffff; height:20px;width:100%;" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1437.37922,100.277057 L823.4576,26.0907362 C785.104953,21.2174623 750.835079,18.7808253 720.647978,18.7808253 C690.460878,18.7808253 657.029922,21.1301388 620.355113,25.8287658 L4.0317179,100.277057 L0,100.277057 L0,0.277057299 L1442,0.277057299 L1442,100.277057 L1437.37922,100.277057 Z"></path> </svg>
         <div class="fifth-section">
-            <v-container class="pb-10">
+            <v-container class="pt-10">
                 <v-row>
-                    <v-col cols="12" sm="12" md="6" lg="4"  class="ma-auto" v-for="Offers in Offer" :key="Offers.id" >
+                    <v-col cols="12" sm="12" md="6" class="ma-auto" v-for="Offer in Offers" :key="Offer.id" >
                         <v-card
                         class="pa-10 Services-hover Services-Font"
                         outlined
                         shaped
                         >
-                            <h3 class="mb-5 lighten-1 indigo--text text-center font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">{{Offers.title}}</h3>
-                            <p class="text-center font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">{{Offers.discription}}</p>
+                            <h3 class="mb-5 lighten-1 indigo--text text-center font-weight-bold text-xl-h4 text-lg-h5 text-md-h4 text-sm-h4 text-h4 mb-5">{{Offer.title}}</h3>
+                            <p class="text-center font-weight-light text-xl-h6 text-lg-h6 text-md-h6 text-sm-h5">{{Offer.discription}}</p>
                         </v-card>
                     </v-col>
                 </v-row>
@@ -155,76 +108,116 @@ export default {
   },
     data() {
         return{
-            Seo: [
-                
+            steps:[
+                {
+                    id:1,
+                    discription:`Collecting your company's information – objectives, website URLs, social media profile credentials, and previous digital marketing efforts.`,
+                },
+                {
+                    id:2,
+                    discription:`Perform an end-to-end inspection of all provided data using a combination of manual and SEO tools.`,
+                },   
+                {
+                    id:3,
+                    discription:`Sort and organize the audit results before reviewing them to draw relevant conclusions. This step generates recommendations for further improving the online presence, which aids in the next step.`,
+                }, 
+                {
+                    id:4,
+                    discription:`A local SEO audit report is created for the customer and other parties involved to read through and understand the shortcomings of their online marketing efforts. Our knowledgeable consultants will be available to you to discuss the report and clear up any confusion you may have about it.`,
+                },   
+                {
+                    id:5,
+                    discription:`Once the client is satisfied with the local SEO audit report, an action plan is developed based on a brainstorming session to arrive at specific local SEO strategies that will help improve your area-specific rankings and integrate the same in all online locations where you have a presence.`,
+                },        
+            ],
+            works: [
                 {
                     id: 1,
-                    title: 'SEO Draws Significant Web Traffic',
-                    discription:'With visibility comes intrigue, and with intrigue comes a larger number of clicks and visits to your website, multiplying traffic by a huge margin.'
+                    title: 'How Does Local SEO Work?',
+                    discription:`Local SEO practices ensure that your website and online directory listings are visible to people in your area. It optimizes all of your online profiles and information and integrates them with your local information so that it appears on the first page of Google for area-specific searches. It accomplishes this through the following express optimization activities:`,
+                    listing:[
+                        {
+                            id:1,
+                            list:`A thorough local SEO audit`,
+                        },
+                        {
+                            id:2,
+                            list:`Search and analysis for locality-based keywords`,
+                        },
+                        {
+                            id:3,
+                            list:`Optimization of website content for regional locations, maps and terms`,
+                        },
+                        {
+                            id:4,
+                            list:`Verification of business and authentication of NAP – name, address and phone number`,
+                        },
+                        {
+                            id:5,
+                            list:`Registration to local business directories and listings of major search engines`,
+                        },
+                        {
+                            id:6,
+                            list:`Manage positive reviews and feedback’s on the website, social media platforms and business listings`,
+                        },
+                        {
+                            id:7,
+                            list:`Covering a social media marketing campaign focusing on the specific area`,
+                        },
+                    ],
                 },
                 {
                     id: 2,
-                    title: 'SEO Pushes Lead Conversion',
-                    discription:'In a continuing snowball effect, an increased percentage of traffic eventually results in a high lead conversion. However, web design, content, and link building all play important roles in making this happen.'
-                },
-                {
-                    id: 3,
-                    title: 'Transform with Successes',
-                    discription:`A well-planned and executed SEO strategy will attract web crawlers to your website, resulting in your company's pages ranking higher on search engines. While the majority of the world obtains information via the internet, specifically Google, visibility on the first page will undoubtedly do wonders for your company's brand, increasing credibility as well.`
-                },
-                {
-                    id: 4,
-                    title: 'SEO Brings Tangible, Quantifiable, Long-Term Results',
-                    discription:`As your SEO campaign focuses on total improvement, questions about the status of the business – where it stands, how well it is doing, and where it is headed – yield quantifiable answers. With proper monitoring and analytics, performance and growth become visible. The best part is that, when done correctly, augmentations can last for a long time, even in the face of changing trends.`
+                    title: `Why Does Your Business Need Local SEO?`,
+                    discription:`Your company has already undergone a fairly detailed SEO strategy, and you are confident that it is sufficiently updated from the ground up to attract all types of audience attention. Local SEO activities, on the other hand, are critical to achieving more area-specific success. For example, if you own a new pizzeria in UP Village or run a construction company out of one of Makati's commercial buildings, you will need to use local SEO services in Philippines to beat the competition and stay on top.`,
+                    listing:[
+                        {
+                            id:1,
+                            list:`With local SEO integration, your business information will reach interested clients far more easily and quickly, and you will be able to make a sale before your competitors in the same area.`,
+                        },
+                        {
+                            id:2,
+                            list:`With location-specific searches, there is a high likelihood that the customer is genuinely interested in the service and has not stumbled upon your company by chance, resulting in a guaranteed lead conversion.`,
+                        },
+                        {
+                            id:3,
+                            list:`With localized optimization, you will be filtering out the rest of the world and competing only with the local brands, therefore diluting the concentration of rivalry.`,
+                        },
+                    ],
                 },
             ],
-            Offer: [
+            Offers: [
                 
                 {
                     id: 1,
-                    title: 'Website Audit',
-                    discription:'We conduct a thorough evaluation of your current online presence to identify optimization opportunities as well as all glitches and loopholes that could be improved to improve the branding of your company website.'
+                    title: `Google My Business Optimization`,
+                    discription: `Google is by far the most popular search engine on the planet, accounting for more than 70% of all search hits at any given time. It is critical that your company is optimized in accordance with Google guidelines. The search engine giant provides a free service through its listing platform, Google My Business, for local businesses to post their NAP information, business description, and exact location on a Google Map. We assist you in optimizing your GMB listing by ensuring that all information provided is accurate and aligns with positive lead generation.`
                 },
                 {
                     id: 2,
-                    title: 'Online Reputation Management',
-                    discription:'In a world where reputation is everything, you can use our help to manage your online reputation and goodwill, ensuring that positive reviews and feedback reach your potential customers.'
+                    title:`Titles and Metadata Optimization` ,
+                    discription:`In a nutshell, your website's title and metadata are important elements that reflect the nature of your business. These are the behind-the-scenes aspects of SEO that communicate with search engine crawlers and provide relevant information in response to a search request. We pay close attention to including location-based keywords in these elements and making them catchy and interesting, so your business can cut through the ocean of search results generated by Google, Yahoo, or Bing.`
                 },
                 {
                     id: 3,
-                    title: 'Social Media Marketing',
-                    discription:`Digital Marketing Manila creates e -commerce websites that encourage conversion. Our website design is the best in class thanks to a responsive shopping cart solution that includes a secure payment gateway.`
+                    title: `Social Media Management`,
+                    discription:`Nowadays, social media is essential in almost all types of digital marketing solutions, including local SEO. Indeed, because of the community building and mutual sharing features, it is strongly associated with localized searches. Digital Marketing Manila manages your social media platforms in order to integrate them with your local SEO campaign.`
                 },
                 {
                     id: 4,
-                    title:`On-Page Optimization`,
-                    discription:`We constantly monitor and regulate the website's structure and subject content to ensure that relevant and White-hat SEO techniques are used. On-page optimization is critical for your company's ability to adapt to changing times.`
+                    title:`NAP Consistency`,
+                    discription:`It is critical for the success of your local SEO strategy to have authentic and consistent NAP information. NAP stands for Name, Address, and Phone Number, which are the three main pillars of optimizing your business locally. We ensure that your NAP information is up to date and that it appears on all relevant pages of your website, blog, and social media platforms.`
                 },
                 {
                     id: 5,
-                    title:`Link Building`,
-                    discription:`One reputable and authoritative backlink boosts your SEO campaign more than many other techniques combined. We assist you in obtaining functional backlinks to your websites and blog articles from trustworthy internet sources, thereby increasing your credibility and web traffic.`
+                    title:`Backlink Building`,
+                    discription:`Digital Marketing Manila will secure your business site with effective backlink opportunities from renowned and reputed high authority websites, directories, and blog posts, thereby increasing your credibility with local customers.`
                 },
                 {
                     id: 6,
-                    title:`Keyword Research and Analysis`,
-                    discription:`We assist you in identifying specific keywords related to your business and the services it offers so that future content of any kind can be built around the distinguished set of words and phrases that will propel your business to the top of the search results.`
-                },
-                {
-                    id: 7,
-                    title:`Web Designing and Structuring`,
-                    discription:`Our SEO experts in the Philippines design a website from the ground up or revamp an existing one with impeccable design, convenient UX, easy navigation, and superb graphics, all integrated with custom programming, e-commerce systems, and customer security protocols. The site is also naturally Google-friendly and mobile-friendly.`
-                },
-                {
-                    id: 8,
-                    title:`Content Curation and Management`,
-                    discription:`When it comes to digital marketing, Bill Gates' famous phrase "content is king" holds true. We carefully curate the most relevant, interesting, and precise content for your website, infused with relevant keywords. There is no better way to promote your niche and encourage customer engagement than with fresh and well-targeted content.`
-                },    
-                {
-                    id: 9,
-                    title:`Social Media Marketing`,
-                    discription:`Our expert social media marketing teams will assist you in establishing your presence on various social media channels such as Facebook, Instagram, LinkedIn, and Twitter, as well as fully utilizing the business tools and promotional facilities provided by each platform, initiating engaging conversations with the audience, and keeping them hooked with interesting content.`
-                },                                                                              
+                    title:`Local Citations`,
+                    discription:`To appear higher in search results, your company's name must be prominent in local directories and business listings. Our local SEO services include searching for all relevant citation sites and getting your business listed on them.`
+                }                                                                             
             ],
         }
     },
@@ -232,7 +225,7 @@ export default {
 </script>
 
 <style>
-#webdevregestration .SEO {
+#webdevregestration .local-seo {
     background: #fff !important;
 }
 .flip{

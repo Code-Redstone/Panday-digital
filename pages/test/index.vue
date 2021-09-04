@@ -1,26 +1,22 @@
 <template>
-    <div class="mb-10">
-    <h1  @click="changeText">{{jr}}</h1>
+  <div >
+    <span 
+      @mouseover="hover = true"
+      @mouseleave="hover = false"
+    >
+      Hover me to show the message!
+    </span>
+    <span v-if="hover">This is a secret message.</span>
   </div>
 </template>
 
 <script>
 export default {
-    props:{
-        title:{
-            type: String
-        }
-    },
-    data(){
-        return {
-            jr:'Click me'
-        }
-    },
-    methods:{
-        changeText: function(){
-            this.$emit('changeText', 'yey');
-        }
-    }
+  data() {
+    return {
+      hover: false,
+    };
+  }
 }
 </script>
 

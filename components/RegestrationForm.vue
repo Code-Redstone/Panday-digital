@@ -238,7 +238,7 @@
                     <v-radio
                         class="Seo-radio"
                         label="Yes"
-                        value="No"
+                        value="Yes"
                     ></v-radio>
                     <v-radio
                         class="Seo-radio"
@@ -252,7 +252,7 @@
                     <v-col cols="12 py-0 pr-0">
                         <h3 >What SEO services do you need? *</h3>
                     </v-col>
-                    <v-col cols="4 py-0">
+                    <v-col cols="6 py-0" md="4">
                         <v-checkbox
                         value="On-Page"
                         >   
@@ -261,7 +261,7 @@
                             >On-Page SEO</template>
                         </v-checkbox>
                     </v-col>
-                    <v-col cols="4 py-0">
+                    <v-col cols="6 py-0" md="4">
                         <v-checkbox 
                         value="Off-Page"
                         >                    
@@ -270,7 +270,7 @@
                             >Off-Page SEO</template>
                         </v-checkbox>
                     </v-col>
-                    <v-col cols="4 py-0">
+                    <v-col cols="6 py-0" md="4">
                         <v-checkbox 
                         value="Keywords Research"
                         >                    
@@ -279,7 +279,7 @@
                             >Keywords Research</template>
                         </v-checkbox>
                     </v-col>
-                    <v-col cols="4 py-0">
+                    <v-col cols="6 py-0" md="4">
                         <v-checkbox
                         value="On-Page"
                         >   
@@ -288,7 +288,7 @@
                             >Local SEO Audit</template>
                         </v-checkbox>
                     </v-col>
-                    <v-col cols="4 py-0">
+                    <v-col cols="6 py-0" md="4">
                         <v-checkbox 
                         value="Off-Page"
                         >                    
@@ -297,7 +297,7 @@
                             >GMB Optimization</template>
                         </v-checkbox>
                     </v-col>
-                    <v-col cols="4 py-0">
+                    <v-col cols="6 py-0" md="4">
                         <v-checkbox 
                         value="Keywords Research"
                         >                    
@@ -343,6 +343,9 @@ export default {
 .Seo-radio{
     width: 50% !important;
     margin: 0px !important;
+}
+#webdevregestration button.local-seo{
+    background-color: #5c6bc0 !important;
 }
 #webdevregestration button.SEO{
     background-color: #5c6bc0 !important;

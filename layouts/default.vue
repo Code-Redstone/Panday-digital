@@ -29,6 +29,9 @@ export default {
 .change-background{
   background-color: #64B5F6;
 }
+.local-seo{
+  background-color: #5c6bc0 !important;
+}
 .offers {
   background-color: #00BCD4  !important;
 }

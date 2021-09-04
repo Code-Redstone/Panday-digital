@@ -63,7 +63,8 @@
                                     </v-expansion-panel-header>
                                     <v-expansion-panel-content class="custom-css">
                                             <nuxt-link to="Web-Dev"><p class="font-weight-regular black--text text-xl-h2 text-lg-h2">WEB DEV</p></nuxt-link><br>
-                                             <nuxt-link to="SEO"><p class="font-weight-regular black--text text-xl-h2 text-lg-h2">SEO</p></nuxt-link>
+                                            <nuxt-link to="SEO"><p class="font-weight-regular black--text text-xl-h2 text-lg-h2">SEO</p></nuxt-link><br>
+                                            <nuxt-link to="local-seo"><p class="font-weight-regular black--text text-xl-h2 text-lg-h2">Local SEO</p></nuxt-link>
                                     </v-expansion-panel-content>
                                 </v-expansion-panel>
                             </v-expansion-panels>               
@@ -79,7 +80,7 @@
                         <v-col cols="12" md="4" class="text-center"> 
                             <div class="d-block text-center mx-auto" id="Footer-logo">
                                 <h1>PANDAY DIGITAL</h1>
-                                <p class="white--text text-lg-h5 text-md-h6 text-sm-h4 font-weight-light">we build you digital pressgit coence
+                                <p class="white--text text-lg-h5 text-md-h6 text-sm-h4 font-weight-light">we build you digital presence
                                 </p>
                             </div>
                         </v-col>
