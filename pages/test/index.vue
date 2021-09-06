@@ -1,12 +1,9 @@
 <template>
   <div >
-    <span 
-      @mouseover="hover = true"
-      @mouseleave="hover = false"
+    <span class=""
     >
       Hover me to show the message!
     </span>
-    <span v-if="hover">This is a secret message.</span>
   </div>
 </template>
 
