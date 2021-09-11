@@ -17,7 +17,7 @@
                             </div>
                         </v-col>
                         <v-col class=" center "  cols="12"  lg="6" color="white">
-                            <RegestrationForm/>
+                            <RegestrationForm page="offers"/>
                         </v-col>
                     </v-row>
                 </v-container>

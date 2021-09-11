@@ -38,7 +38,7 @@
                         </div>
                     </v-col>
                     <v-col cols="12" lg="6" id="webdevregestration">
-                        <RegestrationForm/>
+                        <RegestrationForm page="local-seo"/>
                     </v-col>
                 </v-row>
             </v-container>

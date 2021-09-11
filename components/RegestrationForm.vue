@@ -328,10 +328,28 @@
 <script>
 export default {
     name:'RegestrationForm',
+    props: {
+        page:{
+            type:String,
+            required:true
+        }
+    },
+    methods: {
+    send() {
+        this.message = "Phone: " + this.phone;
+        this.message += "n"
+        this.$mail.send({
+            from: this.email,
+            subject: 'Contact form message',
+            text: this.message,
+        })
+        }
+    },
     data: () => ({
       Web: ['₱20,000 - ₱30,000', '₱40,000 - ₱50,000', '₱60,000 - ₱80,000', '₱100,000+'],
       Seo: ['₱20,000 - ₱33,000', '₱40,000 - ₱50,000', '₱60,000 - ₱80,000', '₱100,000+'],
     }),
+    
 }
 </script>
 

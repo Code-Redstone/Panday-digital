@@ -39,6 +39,20 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/axios',
+    ['nuxt-mail', {
+      message: {
+        to: 'adicerloop@gmail,com',
+      },
+      smtp: {
+        host: 'smtp.mailtrap.io',
+        port: 2525,
+        auth: {
+          user: 'd63ba9a84f9f6c',
+          pass: '8ed44aee2dd8f3'
+        },
+      },
+    }],
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
